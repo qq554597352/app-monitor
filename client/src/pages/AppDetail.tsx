@@ -160,7 +160,7 @@ export default function AppDetail() {
           gradient="from-[#F59E0B] to-[#EF4444]" icon={<Star size={16} />} />
         <MetricCard title="评论数" value={formatNumber(metric?.reviews)}
           gradient="from-[#3B82F6] to-[#06B6D4]" icon={<MessageSquare size={16} />} />
-        <MetricCard title="下载量" value={metric?.downloads_range || '—'}
+        <MetricCard title="下载量" value={metric?.installs_str || metric?.downloads_range || '—'}
           subtitle="Google Play 显示" gradient="from-[#10B981] to-[#059669]" />
         <MetricCard title="投放强度" value={`${intensity.toFixed(0)}`} suffix="/100"
           subtitle="综合推断指数" gradient={intensity >= 70 ? 'from-[#EF4444] to-[#F97316]' : 'from-[#F59E0B] to-[#EAB308]'} />

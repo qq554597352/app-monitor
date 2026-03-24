@@ -42,6 +42,9 @@ export interface AppMetric {
   dau_change: number | null
   // 广告投放强度推断（0-100）
   ad_spend_intensity: number | null
+  // 兼容字段（旧数据格式）
+  downloads_range?: string   // Google Play 安装量区间字符串，如 "1,000,000+"
+  hot_score?: number         // 热度综合得分（0-100）
   // 是否新发现
   is_new: boolean
 }
