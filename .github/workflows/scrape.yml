@@ -2,8 +2,8 @@ name: 爬取APP数据并更新
 
 on:
   schedule:
-    # 每4小时执行一次（UTC时间），减少频繁请求被封的风险
-    - cron: '0 */4 * * *'
+    # 每天 UTC 02:00（北京时间 10:00）执行一次
+    - cron: '0 2 * * *'
   workflow_dispatch:  # 支持手动触发
 
 permissions:
@@ -49,18 +49,11 @@ jobs:
             echo "SCRAPE_FAILED=false" >> $GITHUB_ENV
           fi
 
-      - name: 推送微信通知（仅每日10:00 UTC执行）
+      - name: 推送微信日报
         if: env.SCRAPE_FAILED == 'false'
         run: |
-          HOUR=$(date -u +%H)
-          MINUTE=$(date -u +%M)
-          echo "当前时间: ${HOUR}:${MINUTE} UTC"
-          if [ "$HOUR" = "10" ] && [ "$MINUTE" -lt "35" ]; then
-            echo "📤 执行微信日报推送..."
-            python scripts/push_notification.py
-          else
-            echo "⏭️ 非推送时间（仅 10:00 UTC 推送），跳过"
-          fi
+          echo "📤 执行微信日报推送..."
+          python scripts/push_notification.py
         env:
           WECHAT_WEBHOOK_URL: ${{ secrets.WECHAT_WEBHOOK_URL }}
 
