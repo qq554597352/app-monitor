@@ -11,7 +11,7 @@ import {
 
 type AppRow = App & { metric?: AppMetric }
 type SortField = 'rank' | 'rating' | 'reviews' | 'min_installs' | 'dau_estimate' | 'ad_spend_intensity' | 'rank_change'
-type CountryCode = 'PH' | 'ID' | 'PK' | 'MY' | 'AU' | 'GB' | 'all'
+type CountryCode = 'PH' | 'ID' | 'PK' | 'MY' | 'AU' | 'GB' | 'MX' | 'all'
 type IndustryType = 'credit' | 'finance' | 'insurance' | 'all'
 type StoreType = 'google_play' | 'app_store' | 'all'
 
@@ -23,6 +23,7 @@ const COUNTRIES: { code: CountryCode; label: string }[] = [
   { code: 'MY', label: '🇲🇾 马来西亚' },
   { code: 'AU', label: '🇦🇺 澳大利亚' },
   { code: 'GB', label: '🇬🇧 英国' },
+  { code: 'MX', label: '🇲🇽 墨西哥' },
 ]
 
 const INDUSTRIES: { code: IndustryType; label: string }[] = [

@@ -14,6 +14,7 @@ COUNTRY_MAP = {
     "MY": "马来西亚",
     "AU": "澳大利亚",
     "GB": "英国",
+    "MX": "墨西哥",
 }
 
 # 行业映射（英文 → 中文）
@@ -35,7 +36,7 @@ def normalize_app(raw: Dict) -> Optional[Dict]:
     if not raw.get("name") or not raw.get("id"):
         return None
 
-    country_code = raw.get("country", "").upper()
+    country_code = (raw.get("country_code") or raw.get("country") or "").upper()
     industry = raw.get("industry", "finance")
 
     return {
@@ -68,7 +69,7 @@ def normalize_metric(raw: Dict, timestamp: str) -> Optional[Dict]:
 
     return {
         "app_id":          str(raw.get("id", "")),
-        "country_code":    raw.get("country", "").upper(),
+        "country_code":    (raw.get("country_code") or raw.get("country") or "").upper(),
         "store":           raw.get("store", "unknown"),
         "timestamp":       timestamp,
         # 排行榜排名

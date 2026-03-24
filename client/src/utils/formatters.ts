@@ -124,6 +124,7 @@ export function getCountryFlag(code: string): string {
     MY: '🇲🇾',
     AU: '🇦🇺',
     GB: '🇬🇧',
+    MX: '🇲🇽',
   };
   return flags[code] || '🌍';
 }

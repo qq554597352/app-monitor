@@ -96,5 +96,6 @@ export interface DashboardData {
     MY: number
     AU: number
     GB: number
+    MX: number
   }
 }

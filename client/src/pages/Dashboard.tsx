@@ -17,6 +17,7 @@ const COUNTRY_LIST = [
   { code: 'MY', name: '马来西亚', flag: '🇲🇾' },
   { code: 'AU', name: '澳大利亚', flag: '🇦🇺' },
   { code: 'GB', name: '英国', flag: '🇬🇧' },
+  { code: 'MX', name: '墨西哥', flag: '🇲🇽' },
 ]
 
 const INDUSTRY_TABS = [
@@ -245,7 +246,7 @@ export default function Dashboard() {
         },
         top_movers: [],
         industry_distribution: { credit: 0, finance: 0, insurance: 0 },
-        country_distribution: { PH: 0, ID: 0, PK: 0, MY: 0, AU: 0, GB: 0 },
+        country_distribution: { PH: 0, ID: 0, PK: 0, MY: 0, AU: 0, GB: 0, MX: 0 },
       })
       setLastUpdated(new Date().toISOString())
     }
@@ -300,7 +301,7 @@ export default function Dashboard() {
         <MetricCard
           title="监控APP总数"
           value={totalApps}
-          subtitle="6 个国家 · 3 行业"
+          subtitle="7 个国家 · 3 行业"
           icon={<Smartphone size={18} />}
           gradient="from-[#6366F1] to-[#8B5CF6]"
         />
