@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#0F172A] text-[#F8FAFC] font-sans antialiased;
+  }
+
+  ::-webkit-scrollbar {
+    @apply w-1.5;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-[#1E293B];
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-[#334155] rounded-full;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-[#1E293B]/80 backdrop-blur-md border border-white/5 rounded-2xl;
+  }
+
+  .gradient-text {
+    @apply bg-gradient-to-r from-[#6366F1] via-[#8B5CF6] to-[#3B82F6] bg-clip-text text-transparent;
+  }
+
+  .stat-card {
+    @apply glass-card p-5 hover:bg-[#1E293B] transition-all duration-300;
+  }
+
+  .badge {
+    @apply inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs font-medium;
+  }
+}

@@ -1,0 +1,67 @@
+name: 爬取APP数据并更新
+
+on:
+  schedule:
+    # 每30分钟执行一次（UTC时间）
+    - cron: '*/30 * * * *'
+  workflow_dispatch:  # 支持手动触发
+
+permissions:
+  contents: write  # 需要写入权限以提交JSON数据
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25  # 防止超时
+
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 设置 Python 环境
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: 安装 Python 依赖
+        run: pip install -r requirements.txt
+
+      - name: 安装 Playwright 浏览器
+        run: playwright install chromium --with-deps
+
+      - name: 执行数据采集
+        run: python scripts/collect_data.py
+        env:
+          PYTHONPATH: ${{ github.workspace }}
+
+      - name: 推送微信通知（仅每日10:00 UTC执行）
+        run: |
+          HOUR=$(date -u +%H)
+          MINUTE=$(date -u +%M)
+          echo "当前时间: ${HOUR}:${MINUTE} UTC"
+          if [ "$HOUR" = "10" ] && [ "$MINUTE" -lt "35" ]; then
+            echo "📤 执行微信日报推送..."
+            python scripts/push_notification.py
+          else
+            echo "⏭️ 非推送时间（仅 10:00 UTC 推送），跳过"
+          fi
+        env:
+          WECHAT_WEBHOOK_URL: ${{ secrets.WECHAT_WEBHOOK_URL }}
+
+      - name: 提交更新的数据文件
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "GitHub Actions Bot"
+          git add data/
+          git diff --staged --quiet || git commit -m "chore: 自动更新APP数据 $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 触发前端部署
+        if: success()
+        run: |
+          echo "✅ 数据更新成功，前端将在下一次 deploy.yml 触发时刷新"

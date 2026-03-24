@@ -1,0 +1,22 @@
+{
+  "summary": {
+    "total_apps": 0,
+    "total_countries": 6,
+    "total_industries": 3,
+    "last_updated": null
+  },
+  "top_movers": [],
+  "industry_distribution": {
+    "credit": 0,
+    "finance": 0,
+    "insurance": 0
+  },
+  "country_distribution": {
+    "PH": 0,
+    "ID": 0,
+    "PK": 0,
+    "MY": 0,
+    "AU": 0,
+    "GB": 0
+  }
+}
