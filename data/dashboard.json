@@ -1,7 +1,7 @@
 {
   "summary": {
     "total_apps": 0,
-    "total_countries": 6,
+    "total_countries": 7,
     "total_industries": 3,
     "last_updated": null
   },
@@ -17,6 +17,7 @@
     "PK": 0,
     "MY": 0,
     "AU": 0,
-    "GB": 0
+    "GB": 0,
+    "MX": 0
   }
 }

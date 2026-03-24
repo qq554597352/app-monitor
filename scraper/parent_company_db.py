@@ -128,9 +128,50 @@ PACKAGE_TO_PARENT: dict[str, dict] = {
         "country": "ID",
     },
     "id.co.easycash.aplikasi": {
-        "chinese_parent": "信也科技（FINV）分支",
-        "relation": "关联公司",
+        "chinese_parent": "瓴岳科技（Fintopia，洋钱罐母公司）",
+        "relation": "全资子公司",
         "country": "ID",
+    },
+    "com.fintopia.easycash": {
+        "chinese_parent": "瓴岳科技（Fintopia，洋钱罐母公司）",
+        "relation": "全资子公司",
+        "country": "ID",
+    },
+    # ─── KN Group（快牛智能，总部香港，中资）───
+    "com.kngroup.cashpinoy": {
+        "chinese_parent": "KN Group（快牛智能，香港中资金融科技）",
+        "relation": "全资子公司",
+        "country": "PH",
+    },
+    "com.kngroup.cashbee": {
+        "chinese_parent": "KN Group（快牛智能）",
+        "relation": "全资子公司",
+        "country": "PH",
+    },
+    "com.kngroup.rupiahnow": {
+        "chinese_parent": "KN Group（快牛智能）",
+        "relation": "全资子公司",
+        "country": "ID",
+    },
+    "com.kngroup.cashnow": {
+        "chinese_parent": "KN Group（快牛智能）",
+        "relation": "全资子公司",
+        "country": "ID",
+    },
+    "com.kngroup.pocketloan": {
+        "chinese_parent": "KN Group（快牛智能）",
+        "relation": "全资子公司",
+        "country": "PK",
+    },
+    "com.kngroup.thaicash": {
+        "chinese_parent": "KN Group（快牛智能）",
+        "relation": "全资子公司",
+        "country": "TH",
+    },
+    "com.kngroup.mexloan": {
+        "chinese_parent": "KN Group（快牛智能）",
+        "relation": "全资子公司",
+        "country": "MX",
     },
     # ========== 巴基斯坦 ==========
     "com.jazzcash.android": {
@@ -255,6 +296,88 @@ PACKAGE_TO_PARENT: dict[str, dict] = {
         "relation": "外资（美国）",
         "country": "AU",
     },
+    # ========== 墨西哥 ==========
+    # 本土头部信贷APP
+    "com.kueski.app": {
+        "chinese_parent": "Kueski（墨西哥本地，SoftBank等外资）",
+        "relation": "本地资本",
+        "country": "MX",
+    },
+    "com.kueski.os": {
+        "chinese_parent": "Kueski（墨西哥本地先买后付+贷款）",
+        "relation": "本地资本",
+        "country": "MX",
+    },
+    "com.konfio.credito": {
+        "chinese_parent": "Konfio（墨西哥本地小微企业贷款独角兽）",
+        "relation": "本地资本",
+        "country": "MX",
+    },
+    "mx.credijusto.app": {
+        "chinese_parent": "Credijusto（墨西哥本地，Goldman Sachs参股）",
+        "relation": "外资（美国）",
+        "country": "MX",
+    },
+    "com.moneyman.mx": {
+        "chinese_parent": "ID Finance（西班牙，俄罗斯资本）",
+        "relation": "外资",
+        "country": "MX",
+    },
+    "com.alphacredit.mx": {
+        "chinese_parent": "AlphaCredit（墨西哥本地）",
+        "relation": "本地资本",
+        "country": "MX",
+    },
+    "com.vivus.mx": {
+        "chinese_parent": "4finance（拉脱维亚欧洲消费金融集团）",
+        "relation": "外资（欧洲）",
+        "country": "MX",
+    },
+    "com.credmex.prestamos": {
+        "chinese_parent": "瓴岳科技（Fintopia，洋钱罐母公司）",
+        "relation": "全资子公司",
+        "country": "MX",
+    },
+    "com.fintopia.mxcredmex": {
+        "chinese_parent": "瓴岳科技（Fintopia，洋钱罐母公司）",
+        "relation": "全资子公司",
+        "country": "MX",
+    },
+    "com.tacoscred.loan": {
+        "chinese_parent": "中资（具体公司待核实）",
+        "relation": "中资背景",
+        "country": "MX",
+    },
+    "com.bancoppel.app": {
+        "chinese_parent": "BanCoppel（墨西哥本地零售银行）",
+        "relation": "本地资本",
+        "country": "MX",
+    },
+    "com.nu.production": {
+        "chinese_parent": "Nubank（巴西数字银行，腾讯/Berkshire Hathaway参股）",
+        "relation": "战略投资方",
+        "country": "MX",
+    },
+    "com.spin.app": {
+        "chinese_parent": "SPIN by OXXO（墨西哥本地Femsa集团）",
+        "relation": "本地资本",
+        "country": "MX",
+    },
+    "com.pagando.mx": {
+        "chinese_parent": "Pagando（墨西哥本地数字银行）",
+        "relation": "本地资本",
+        "country": "MX",
+    },
+    "mx.com.hey.banco": {
+        "chinese_parent": "Hey Banco（Banregio集团，墨西哥本地）",
+        "relation": "本地资本",
+        "country": "MX",
+    },
+    "com.icreditx.mx": {
+        "chinese_parent": "中资背景（iCreditX）",
+        "relation": "中资背景",
+        "country": "MX",
+    },
     # ========== 英国 ==========
     "com.revolut.revolut": {
         "chinese_parent": "Revolut（英本地，腾讯/SoftBank投资）",
@@ -296,6 +419,38 @@ PACKAGE_TO_PARENT: dict[str, dict] = {
         "relation": "本地资本",
         "country": "GB",
     },
+    # ========== 微财科技（北京微财科技/厦门微财）多国APP ==========
+    "com.weicai.loan.ph": {
+        "chinese_parent": "微财科技（北京微财科技有限公司，中资）",
+        "relation": "全资子公司",
+        "country": "PH",
+    },
+    "com.weicai.credit.id": {
+        "chinese_parent": "微财科技（北京微财科技有限公司，中资）",
+        "relation": "全资子公司",
+        "country": "ID",
+    },
+    "com.weicai.mx": {
+        "chinese_parent": "微财科技（北京微财科技有限公司，中资）",
+        "relation": "全资子公司",
+        "country": "MX",
+    },
+    # ========== 瓴岳科技（Fintopia）多国汇总补充 ==========
+    "com.fintopia.thloan": {
+        "chinese_parent": "瓴岳科技（Fintopia，洋钱罐母公司）",
+        "relation": "全资子公司",
+        "country": "TH",
+    },
+    "com.fintopia.phloan": {
+        "chinese_parent": "瓴岳科技（Fintopia，洋钱罐母公司）",
+        "relation": "全资子公司",
+        "country": "PH",
+    },
+    "com.fintopia.brloan": {
+        "chinese_parent": "瓴岳科技（Fintopia，洋钱罐母公司）",
+        "relation": "全资子公司",
+        "country": "BR",
+    },
 }
 
 # APP名称关键词模糊匹配（包名匹配失败时使用）
@@ -332,6 +487,27 @@ NAME_KEYWORD_TO_PARENT: list[tuple[str, dict]] = [
     ("monzo", {"chinese_parent": "腾讯战略投资", "relation": "投资方"}),
     ("zip", {"chinese_parent": "ANT参股Zip Co", "relation": "少数股东"}),
     ("afterpay", {"chinese_parent": "Block Inc（美资）", "relation": "外资（美国）"}),
+    # 洋钱罐/瓴岳科技（Fintopia）多国品牌
+    ("easycash", {"chinese_parent": "瓴岳科技（Fintopia，洋钱罐母公司）", "relation": "全资子公司"}),
+    ("credmex", {"chinese_parent": "瓴岳科技（Fintopia，洋钱罐母公司）", "relation": "全资子公司"}),
+    ("fintopia", {"chinese_parent": "瓴岳科技（Fintopia，洋钱罐母公司）", "relation": "全资子公司"}),
+    ("tacoscred", {"chinese_parent": "中资背景（具体公司待核实）", "relation": "中资背景"}),
+    # KN Group / 快牛智能
+    ("cashpinoy", {"chinese_parent": "KN Group（快牛智能，香港中资）", "relation": "全资子公司"}),
+    ("cashbee", {"chinese_parent": "KN Group（快牛智能）", "relation": "全资子公司"}),
+    ("rupiahnow", {"chinese_parent": "KN Group（快牛智能）", "relation": "全资子公司"}),
+    ("pocketloan", {"chinese_parent": "KN Group（快牛智能）", "relation": "全资子公司"}),
+    # 微财科技
+    ("weicai", {"chinese_parent": "微财科技（北京微财科技有限公司）", "relation": "全资子公司"}),
+    ("wefinance", {"chinese_parent": "微财科技（北京微财科技有限公司）", "relation": "全资子公司"}),
+    # 墨西哥本土
+    ("kueski", {"chinese_parent": "Kueski（墨西哥本地，SoftBank等外资）", "relation": "本地资本"}),
+    ("konfio", {"chinese_parent": "Konfio（墨西哥本地小微企业贷款独角兽）", "relation": "本地资本"}),
+    ("credijusto", {"chinese_parent": "Credijusto（墨西哥本地，Goldman Sachs参股）", "relation": "外资（美国）"}),
+    ("moneyman", {"chinese_parent": "ID Finance（西班牙/俄罗斯资本）", "relation": "外资（欧洲）"}),
+    ("vivus", {"chinese_parent": "4finance（拉脱维亚欧洲消费金融集团）", "relation": "外资（欧洲）"}),
+    ("nubank", {"chinese_parent": "Nubank（巴西数字银行，腾讯参股）", "relation": "战略投资方"}),
+    ("bancoppel", {"chinese_parent": "BanCoppel（墨西哥本地零售银行）", "relation": "本地资本"}),
 ]
 
 

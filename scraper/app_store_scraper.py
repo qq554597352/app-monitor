@@ -21,6 +21,7 @@ APP_STORE_COUNTRIES = {
     "MY": "my",
     "AU": "au",
     "GB": "gb",
+    "MX": "mx",
 }
 
 # 各国 App Store 评论数 → 安装量估算系数（信贷金融类）
@@ -32,6 +33,7 @@ REVIEW_TO_INSTALL_RATIO = {
     "MY": 90,    # 马来西亚用户相对活跃
     "AU": 80,    # 澳大利亚
     "GB": 70,    # 英国，用户更倾向评论
+    "MX": 110,   # 墨西哥
 }
 
 
@@ -109,6 +111,7 @@ def _parse_app_store_feed(data: Dict, country_code: str) -> List[Dict]:
     country_name_map = {
         "PH": "菲律宾", "ID": "印尼", "PK": "巴基斯坦",
         "MY": "马来西亚", "AU": "澳大利亚", "GB": "英国",
+        "MX": "墨西哥",
     }
     for i, item in enumerate(results):
         app_name = item.get("name", "")

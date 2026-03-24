@@ -94,7 +94,7 @@ def generate_dashboard_summary(
     """生成仪表盘汇总数据"""
     # 行业分布
     industry_dist = {"credit": 0, "finance": 0, "insurance": 0}
-    country_dist = {"PH": 0, "ID": 0, "PK": 0, "MY": 0, "AU": 0, "GB": 0}
+    country_dist = {"PH": 0, "ID": 0, "PK": 0, "MY": 0, "AU": 0, "GB": 0, "MX": 0}
     
     app_map = {a["id"]: a for a in apps}
     
@@ -130,7 +130,7 @@ def generate_dashboard_summary(
     return {
         "summary": {
             "total_apps": len(apps),
-            "total_countries": 6,
+            "total_countries": 7,
             "total_industries": 3,
             "avg_rating": avg_rating,
             "last_updated": datetime.utcnow().isoformat() + "Z",
