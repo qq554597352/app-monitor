@@ -134,7 +134,7 @@ def _get_finance_pkg_list(country_code: str, lang: str, top_n: int) -> list:
                     seen[pkg] = h
             if len(seen) >= top_n:
                 break
-            time.sleep(random.uniform(1.5, 3.0))
+            time.sleep(random.uniform(0.5, 1.5))
         except Exception as e:
             print(f"   search[{term}] 失败: {e}")
 
@@ -184,8 +184,8 @@ def scrape_google_play_country(country_code: str, top_n: int = 50) -> List[Dict]
 
     # Step 2: 批量获取APP详情（含真实安装量）
     for rank, pkg_name in enumerate(pkg_list[:top_n], start=1):
-        # 速率控制：避免触发 429
-        delay = random.uniform(0.8, 2.0)
+        # 速率控制：避免触发 429（CI 环境缩短延迟）
+        delay = random.uniform(0.3, 0.8)
         time.sleep(delay)
 
         try:
@@ -284,7 +284,7 @@ def scrape_all_countries_google_play(top_n: int = 50) -> List[Dict]:
         except Exception as e:
             print(f"❌ [{country_code}] Google Play 爬取失败: {e}")
         # 国家间冷却（避免触发频率限制）
-        cooldown = random.uniform(5, 12)
+        cooldown = random.uniform(2, 5)
         print(f"   🕐 国家间冷却 {cooldown:.1f}s...")
         time.sleep(cooldown)
     return all_apps

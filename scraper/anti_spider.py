@@ -36,8 +36,8 @@ USER_AGENTS = [
 
 # 请求间隔记录（防止过于频繁）
 _last_request_time: Dict[str, float] = {}
-MIN_INTERVAL = 3.0  # 最小请求间隔（秒）
-MAX_INTERVAL = 8.0  # 最大随机延迟（秒）
+MIN_INTERVAL = 1.0  # 最小请求间隔（秒）
+MAX_INTERVAL = 3.0  # 最大随机延迟（秒）
 
 
 def get_random_user_agent() -> str:

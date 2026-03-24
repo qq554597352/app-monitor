@@ -2,8 +2,8 @@ name: 爬取APP数据并更新
 
 on:
   schedule:
-    # 每30分钟执行一次（UTC时间）
-    - cron: '*/30 * * * *'
+    # 每4小时执行一次（UTC时间），减少频繁请求被封的风险
+    - cron: '0 */4 * * *'
   workflow_dispatch:  # 支持手动触发
 
 permissions:
@@ -12,7 +12,7 @@ permissions:
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    timeout-minutes: 25  # 防止超时
+    timeout-minutes: 55  # 防止超时（爬7国×30APP约需30-40分钟）
 
     steps:
       - name: 检出仓库
@@ -33,11 +33,24 @@ jobs:
         run: playwright install chromium --with-deps
 
       - name: 执行数据采集
+        id: scrape
         run: python scripts/collect_data.py
         env:
           PYTHONPATH: ${{ github.workspace }}
+          SCRAPE_TOP_N: "30"
+        continue-on-error: true
+
+      - name: 检查采集结果
+        run: |
+          if [ "${{ steps.scrape.outcome }}" = "failure" ]; then
+            echo "⚠️ 数据采集失败，将跳过推送和提交步骤"
+            echo "SCRAPE_FAILED=true" >> $GITHUB_ENV
+          else
+            echo "SCRAPE_FAILED=false" >> $GITHUB_ENV
+          fi
 
       - name: 推送微信通知（仅每日10:00 UTC执行）
+        if: env.SCRAPE_FAILED == 'false'
         run: |
           HOUR=$(date -u +%H)
           MINUTE=$(date -u +%M)
@@ -52,6 +65,7 @@ jobs:
           WECHAT_WEBHOOK_URL: ${{ secrets.WECHAT_WEBHOOK_URL }}
 
       - name: 提交更新的数据文件
+        if: env.SCRAPE_FAILED == 'false'
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "GitHub Actions Bot"
@@ -62,6 +76,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: 触发前端部署
-        if: success()
+        if: env.SCRAPE_FAILED == 'false'
         run: |
           echo "✅ 数据更新成功，前端将在下一次 deploy.yml 触发时刷新"

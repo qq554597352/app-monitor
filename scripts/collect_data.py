@@ -61,13 +61,14 @@ async def collect():
     # ────────────────────────────────────────────────
     # Step 1: 采集 Google Play 数据（同步库，顺序执行）
     # ────────────────────────────────────────────────
-    print("\n📱 [1/5] 采集 Google Play 数据（真实安装量）...")
+    TOP_N = int(os.environ.get("SCRAPE_TOP_N", "30"))  # CI 默认30，本地可设50
+    print(f"\n📱 [1/5] 采集 Google Play 数据（真实安装量，每国 Top {TOP_N}）...")
     gp_apps_raw = []
     try:
         # google-play-scraper 是同步库，在线程池中运行
         loop = asyncio.get_event_loop()
         gp_apps_raw = await loop.run_in_executor(
-            None, scrape_all_countries_google_play, 50
+            None, scrape_all_countries_google_play, TOP_N
         )
         print(f"   ✅ Google Play: {len(gp_apps_raw)} 条")
     except Exception as e:
@@ -76,10 +77,10 @@ async def collect():
     # ────────────────────────────────────────────────
     # Step 2: 采集 App Store 数据（异步）
     # ────────────────────────────────────────────────
-    print("\n🍎 [2/5] 采集 App Store 数据（安装量估算）...")
+    print(f"\n🍎 [2/5] 采集 App Store 数据（安装量估算，每国 Top {TOP_N}）...")
     as_apps_raw = []
     try:
-        as_apps_raw = await scrape_all_countries_app_store(top_n=50)
+        as_apps_raw = await scrape_all_countries_app_store(top_n=TOP_N)
         print(f"   ✅ App Store: {len(as_apps_raw)} 条")
     except Exception as e:
         print(f"   ❌ App Store 采集失败: {e}")
