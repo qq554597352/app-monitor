@@ -75,21 +75,29 @@ def estimate_installs_from_reviews(reviews: int, country_code: str, rank: int) -
 
 async def scrape_app_store_charts(country_code: str, top_n: int = 50) -> List[Dict]:
     """
-    使用 App Store RSS Feed 官方接口爬取金融类排行榜
-    URL: https://rss.applemarketingtools.com/api/v2/{country}/apps/top-free/{top_n}/finance.json
+    使用 iTunes RSS Feed 爬取 App Store 金融类排行榜
+    URL: https://itunes.apple.com/{cc}/rss/topfreeapplications/limit={n}/genre=6015/json
+    genre=6015 = Finance
     """
     store_country = APP_STORE_COUNTRIES.get(country_code, country_code.lower())
-    url = f"https://rss.applemarketingtools.com/api/v2/{store_country}/apps/top-free/{top_n}/finance.json"
+    url = f"https://itunes.apple.com/{store_country}/rss/topfreeapplications/limit={top_n}/genre=6015/json"
 
     print(f"\n🍎 [{country_code}] 开始获取 App Store 金融榜单: {url}")
 
-    await async_rate_limit("rss.applemarketingtools.com")
+    await async_rate_limit("itunes.apple.com")
 
     headers = get_browser_headers("https://apps.apple.com/")
 
-    async with aiohttp.ClientSession() as session:
+    # 通过 SOCKS5 代理访问
+    try:
+        import aiohttp_socks
+        connector = aiohttp_socks.ProxyConnector.from_url("socks5://127.0.0.1:1080")
+    except ImportError:
+        connector = None
+
+    async with aiohttp.ClientSession(connector=connector) as session:
         try:
-            async with session.get(url, headers=headers, timeout=aiohttp.ClientTimeout(total=30)) as response:
+            async with session.get(url, headers=headers, timeout=aiohttp.ClientTimeout(total=30), ssl=False) as response:
                 if response.status != 200:
                     print(f"App Store [{country_code}] 请求失败: {response.status}")
                     return []

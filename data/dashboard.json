@@ -1,23 +1,24 @@
 {
   "summary": {
-    "total_apps": 0,
+    "total_apps": 301,
     "total_countries": 7,
     "total_industries": 3,
-    "last_updated": null
+    "avg_rating": 4.32,
+    "last_updated": "2026-03-24T11:04:19.649407Z"
   },
   "top_movers": [],
   "industry_distribution": {
-    "credit": 0,
-    "finance": 0,
-    "insurance": 0
+    "credit": 203,
+    "finance": 87,
+    "insurance": 11
   },
   "country_distribution": {
-    "PH": 0,
-    "ID": 0,
-    "PK": 0,
-    "MY": 0,
-    "AU": 0,
-    "GB": 0,
-    "MX": 0
+    "PH": 34,
+    "ID": 29,
+    "PK": 50,
+    "MY": 50,
+    "AU": 38,
+    "GB": 50,
+    "MX": 50
   }
 }

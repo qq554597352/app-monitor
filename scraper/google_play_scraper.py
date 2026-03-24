@@ -105,6 +105,44 @@ def estimate_dau(min_installs: int, rating: float, reviews: int) -> int:
     return max(dau, 0)
 
 
+def _get_finance_pkg_list(country_code: str, lang: str, top_n: int) -> list:
+    """
+    通过多关键词 search 获取金融类APP包名列表（替代已废弃的 top_chart API）
+    """
+    from google_play_scraper import search
+
+    # 各国金融类搜索关键词
+    SEARCH_TERMS = {
+        "PH": ["loan app philippines", "cash loan", "credit money ph", "personal loan ph"],
+        "ID": ["pinjaman uang", "kredit cepat", "pinjaman online", "Dana pinjam"],
+        "PK": ["loan app pakistan", "easy loan pk", "credit pk", "paisa lend"],
+        "MY": ["loan app malaysia", "personal loan my", "credit my", "pinjaman my"],
+        "AU": ["personal loan australia", "quick cash loan au", "buy now pay later"],
+        "GB": ["personal loan uk", "quick loan britain", "credit app uk"],
+        "MX": ["prestamo rapido mexico", "credito movil mx", "prestamo personal mx", "dinero rapido"],
+    }
+
+    terms = SEARCH_TERMS.get(country_code, ["loan finance credit"])
+    seen: dict[str, dict] = {}
+
+    for term in terms:
+        try:
+            hits = search(term, lang=lang, country=country_code, n_hits=30)
+            for h in hits:
+                pkg = h.get("appId", "")
+                if pkg and pkg not in seen:
+                    seen[pkg] = h
+            if len(seen) >= top_n:
+                break
+            time.sleep(random.uniform(1.5, 3.0))
+        except Exception as e:
+            print(f"   search[{term}] 失败: {e}")
+
+    # 按评分+评论数排序，模拟榜单顺序
+    ranked = sorted(seen.values(), key=lambda x: (x.get("score", 0) or 0) * (x.get("ratings", 0) or 0), reverse=True)
+    return [r["appId"] for r in ranked[:top_n]], {r["appId"]: r for r in ranked}
+
+
 def scrape_google_play_country(country_code: str, top_n: int = 50) -> List[Dict]:
     """
     使用 google-play-scraper 库爬取单个国家 Google Play 金融榜单
@@ -118,7 +156,6 @@ def scrape_google_play_country(country_code: str, top_n: int = 50) -> List[Dict]
     }]
     """
     from google_play_scraper import app as gp_app
-    from google_play_scraper import top_chart, Sort
     from google_play_scraper.exceptions import NotFoundError
 
     country = COUNTRIES.get(country_code)
@@ -131,25 +168,18 @@ def scrape_google_play_country(country_code: str, top_n: int = 50) -> List[Dict]
     apps: List[Dict] = []
 
     try:
-        # Step 1: 获取排行榜（包名列表）
-        print(f"   ↳ 获取排行榜 Top {top_n}...")
-        chart_result = top_chart(
-            chart="topselling_free",
-            category=FINANCE_CATEGORY,
-            country=country_code,
-            lang=country["lang"],
-            count=top_n,
-        )
+        # Step 1: 通过搜索获取金融类APP列表
+        print(f"   ↳ 搜索金融类APP Top {top_n}...")
+        pkg_list, search_cache = _get_finance_pkg_list(country_code, country["lang"], top_n)
 
-        if not chart_result:
-            print(f"   ⚠️ [{country_code}] 排行榜返回空")
+        if not pkg_list:
+            print(f"   ⚠️ [{country_code}] 搜索结果为空")
             return []
 
-        pkg_list: list[str] = chart_result  # 包名列表
-        print(f"   ✅ 获取到 {len(pkg_list)} 个包名")
+        print(f"   ✅ 搜索到 {len(pkg_list)} 个APP")
 
     except Exception as e:
-        print(f"   ❌ [{country_code}] 获取排行榜失败: {e}")
+        print(f"   ❌ [{country_code}] 获取APP列表失败: {e}")
         return []
 
     # Step 2: 批量获取APP详情（含真实安装量）
