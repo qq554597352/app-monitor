@@ -156,4 +156,15 @@ async def collect():
 
 
 if __name__ == "__main__":
-    asyncio.run(collect())
+    import traceback
+    try:
+        result = asyncio.run(collect())
+        if result is None:
+            print("\n⚠️ 采集完成但无有效数据（result=None），以非零退出码退出")
+            sys.exit(1)
+        print("\n✅ 采集脚本正常退出")
+        sys.exit(0)
+    except Exception as e:
+        print(f"\n❌ 采集脚本发生未捕获异常: {e}")
+        traceback.print_exc()
+        sys.exit(1)

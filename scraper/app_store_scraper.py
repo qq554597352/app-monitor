@@ -88,23 +88,30 @@ async def scrape_app_store_charts(country_code: str, top_n: int = 50) -> List[Di
 
     headers = get_browser_headers("https://apps.apple.com/")
 
-    # 通过 SOCKS5 代理访问
-    try:
-        import aiohttp_socks
-        connector = aiohttp_socks.ProxyConnector.from_url("socks5://127.0.0.1:1080")
-    except ImportError:
-        connector = None
-
-    async with aiohttp.ClientSession(connector=connector) as session:
+    # 直连（GitHub Actions 环境无代理），最多重试 3 次
+    data = None
+    for attempt in range(3):
         try:
-            async with session.get(url, headers=headers, timeout=aiohttp.ClientTimeout(total=30), ssl=False) as response:
-                if response.status != 200:
-                    print(f"App Store [{country_code}] 请求失败: {response.status}")
-                    return []
-                data = await response.json(content_type=None)
+            async with aiohttp.ClientSession() as session:
+                async with session.get(
+                    url, headers=headers,
+                    timeout=aiohttp.ClientTimeout(total=30),
+                    ssl=False
+                ) as response:
+                    if response.status != 200:
+                        print(f"App Store [{country_code}] 请求失败: HTTP {response.status}（第{attempt+1}次）")
+                        await asyncio.sleep(2 ** attempt)
+                        continue
+                    data = await response.json(content_type=None)
+                    break
         except Exception as e:
-            print(f"App Store [{country_code}] 请求异常: {e}")
-            return []
+            print(f"App Store [{country_code}] 请求异常（第{attempt+1}次）: {e}")
+            if attempt < 2:
+                await asyncio.sleep(2 ** attempt)
+
+    if data is None:
+        print(f"App Store [{country_code}] 3次重试均失败，跳过该国")
+        return []
 
     apps = _parse_app_store_feed(data, country_code)
     apps = await _enrich_app_details(apps, store_country, country_code)
