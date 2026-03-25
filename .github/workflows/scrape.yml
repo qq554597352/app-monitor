@@ -16,13 +16,13 @@ jobs:
 
     steps:
       - name: 检出仓库
-        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
+        uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0  # 完整历史，避免 shallow clone 导致 push 失败
 
       - name: 设置 Python 环境
-        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
           cache: 'pip'
@@ -35,7 +35,10 @@ jobs:
 
       - name: 执行数据采集
         id: scrape
-        run: python scripts/collect_data.py
+        run: |
+          echo "🚀 开始数据采集..."
+          python scripts/collect_data.py
+          echo "✅ 数据采集完成，退出码: $?"
         env:
           PYTHONPATH: ${{ github.workspace }}
           SCRAPE_TOP_N: "30"
@@ -43,10 +46,13 @@ jobs:
 
       - name: 检查采集结果
         run: |
+          echo "采集步骤结果: ${{ steps.scrape.outcome }}"
+          echo "采集步骤退出码: ${{ steps.scrape.conclusion }}"
           if [ "${{ steps.scrape.outcome }}" = "failure" ]; then
-            echo "⚠️ 数据采集失败，将跳过推送和提交步骤"
+            echo "::error::❌ 数据采集失败！请查看上方 '执行数据采集' 步骤的详细日志定位错误原因"
             echo "SCRAPE_FAILED=true" >> $GITHUB_ENV
           else
+            echo "✅ 数据采集成功"
             echo "SCRAPE_FAILED=false" >> $GITHUB_ENV
           fi
 
@@ -94,3 +100,13 @@ jobs:
         if: env.SCRAPE_FAILED == 'false'
         run: |
           echo "✅ 数据更新成功，前端将在下一次 deploy.yml 触发时刷新"
+
+      - name: 输出最终运行状态
+        if: always()
+        run: |
+          if [ "${{ env.SCRAPE_FAILED }}" = "true" ]; then
+            echo "::error::❌ Workflow 完成但数据采集失败 — 请查看 '执行数据采集' 步骤的完整日志"
+            exit 1
+          else
+            echo "✅ Workflow 全部步骤执行完毕"
+          fi
