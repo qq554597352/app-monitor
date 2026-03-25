@@ -72,7 +72,7 @@ def format_report(dashboard: dict) -> str:
 {country_text}{top_text}
 
 📱 查看完整数据：
-https://[你的GitHub用户名].github.io/app-monitor/"""
+https://qq554597352.github.io/app-monitor/"""
 
     return report.strip()
 
