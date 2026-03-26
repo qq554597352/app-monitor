@@ -30,6 +30,18 @@ jobs:
       - name: 安装 Python 依赖
         run: pip install -r requirements.txt
 
+      - name: 修复 Ubuntu 24.04 libasound2 兼容性
+        run: |
+          # Ubuntu 24.04 将 libasound2 重命名为 libasound2t64，playwright 旧版脚本找不到旧包名
+          # 创建软链接让系统找到对应库文件
+          if dpkg -l libasound2t64 2>/dev/null | grep -q '^ii'; then
+            sudo ln -sfn /usr/lib/x86_64-linux-gnu/libasound.so.2 /usr/lib/x86_64-linux-gnu/libasound.so.2.0.0 2>/dev/null || true
+            echo "✅ libasound2t64 已就位"
+          else
+            sudo apt-get install -y libasound2t64 2>/dev/null || true
+            echo "✅ libasound2t64 安装完成"
+          fi
+
       - name: 安装 Playwright 浏览器
         run: playwright install chromium --with-deps
 
