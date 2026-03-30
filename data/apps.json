@@ -6814,5 +6814,53 @@
     "app_store_url": "",
     "chinese_parent": "",
     "parent_relation": ""
+  },
+  {
+    "id": "com.todocredito.mx",
+    "name": "TodoCrédito -Préstamo en línea",
+    "developer": "ATMX TECNOLOGIA TEAM",
+    "country_code": "MX",
+    "country_name": "墨西哥",
+    "industry": "finance",
+    "industry_name": "理财",
+    "store": "google_play",
+    "store_name": "Google Play",
+    "icon_url": "https://play-lh.googleusercontent.com/iCj6ndsGsjV5db8y1MZxtP6gVrEgaKxjaEOHUECMzfGLfvb-KdRzGFXeZy9QjTeTKtgf",
+    "description": "TodoCrédito es una plataforma que se centra en atender a usuarios que necesitan préstamos flexibles. Proporcionará a los usuarios servicios de préstamos seguros y confiables.\r\nObjetivo: Establecer una",
+    "app_store_url": "",
+    "chinese_parent": "",
+    "parent_relation": ""
+  },
+  {
+    "id": "com.mexcredito.credmex.prestamos_de_credito.credito_cash",
+    "name": "mexcredito-prestamos sin buro",
+    "developer": "bytecopper",
+    "country_code": "MX",
+    "country_name": "墨西哥",
+    "industry": "credit",
+    "industry_name": "信贷",
+    "store": "google_play",
+    "store_name": "Google Play",
+    "icon_url": "https://play-lh.googleusercontent.com/mzWXoyk4ykbdK87REZ3g_wgHfTh3xM5R3c3xBO8cXYyeT0cLB6PzgxmA4A-M-xNMHQ",
+    "description": "Mexcredito se centra en Mexico prestamos sin buro de personales en línea, Aprobación inteligente de modelos a gran escala de IA, logrando préstamos rápidos en 15 minutos. Préstamos rápidos en dinero e",
+    "app_store_url": "",
+    "chinese_parent": "",
+    "parent_relation": ""
+  },
+  {
+    "id": "app.sencilloan.bajo",
+    "name": "Préstamo Sencillo-Ágil, Fácil",
+    "developer": "Cashmore, S.A. de C.V.",
+    "country_code": "MX",
+    "country_name": "墨西哥",
+    "industry": "finance",
+    "industry_name": "理财",
+    "store": "google_play",
+    "store_name": "Google Play",
+    "icon_url": "https://play-lh.googleusercontent.com/uJP6hIc17aK17ZgA7G0WcSU9sxwD3L6DyKGZpHVzjovJvOGutntpdW8IRFCZegD2vU5S",
+    "description": "Descripción larga: como solicitud de préstamo, podemos ofrecer préstamos sin garantía rápidos y seguros a clientes que necesitan fondos con urgencia. Estamos comprometidos a ayudar a los clientes a al",
+    "app_store_url": "",
+    "chinese_parent": "",
+    "parent_relation": ""
   }
 ]
