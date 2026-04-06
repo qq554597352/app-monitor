@@ -7582,5 +7582,21 @@
     "app_store_url": "",
     "chinese_parent": "",
     "parent_relation": ""
+  },
+  {
+    "id": "com.homeloansgains",
+    "name": "Home Loans",
+    "developer": "Webmobril",
+    "country_code": "PK",
+    "country_name": "巴基斯坦",
+    "industry": "credit",
+    "industry_name": "信贷",
+    "store": "google_play",
+    "store_name": "Google Play",
+    "icon_url": "https://play-lh.googleusercontent.com/2ssDf62U5kkxLPjmSpl9KYYEbbZ6pp6ZRX7z-LEyyvUwQtNdW2hbq8A_0CGijRUnGy9a",
+    "description": "Multiple Award Winning Team at your Service !\r\nGain Home Loans App is designed to give you complete access and simplify your home loans process\r\nfrom start to finish! Whether it’s the free property re",
+    "app_store_url": "",
+    "chinese_parent": "",
+    "parent_relation": ""
   }
 ]
