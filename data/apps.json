@@ -8302,5 +8302,53 @@
     "app_store_url": "",
     "chinese_parent": "",
     "parent_relation": ""
+  },
+  {
+    "id": "redsun.sfpogjp.keewf",
+    "name": "Pinjaman Peribadi Red Sun",
+    "developer": "ytriso apps",
+    "country_code": "MY",
+    "country_name": "马来西亚",
+    "industry": "credit",
+    "industry_name": "信贷",
+    "store": "google_play",
+    "store_name": "Google Play",
+    "icon_url": "https://play-lh.googleusercontent.com/1UtJEyOI3MuuWQYji3DrhSQjWlJuGKblfRXfWLTrBwoDBuPhgXjgpAKXSHGUEXjhRxavm3vEyRy5vY9v3ENC",
+    "description": "Red Sun Loan Application\r\n\r\nLoan Amount: MYR2000-MYR100000\r\nLoan Period: 6 months-18 months\r\nAnnual Interest Rate: 3.5%-13.5%\r\n\r\nExample: If you borrow MYR10000 for 12 months at an annual interest rat",
+    "app_store_url": "",
+    "chinese_parent": "",
+    "parent_relation": ""
+  },
+  {
+    "id": "com.binance.dev",
+    "name": "Binance: Buy Bitcoin & Crypto",
+    "developer": "Binance Inc.",
+    "country_code": "AU",
+    "country_name": "澳大利亚",
+    "industry": "finance",
+    "industry_name": "理财",
+    "store": "google_play",
+    "store_name": "Google Play",
+    "icon_url": "https://play-lh.googleusercontent.com/VD47EHdUJiZGJTenZGRHA6PVtuGtw-x7_KP1K1qVUf_nieFDBXLlw5NjWUPdmudSWg",
+    "description": "Access the world’s leading blockchain ecosystem on the go, anytime, anywhere.*\r\n\r\nTrusted by over 300 million users worldwide, Binance allows you to securely buy, sell, and hold cryptocurrencies like ",
+    "app_store_url": "",
+    "chinese_parent": "",
+    "parent_relation": ""
+  },
+  {
+    "id": "com.paypal.android.p2pmobile",
+    "name": "PayPal - Pay, Send, Save",
+    "developer": "PayPal Mobile",
+    "country_code": "GB",
+    "country_name": "英国",
+    "industry": "finance",
+    "industry_name": "理财",
+    "store": "google_play",
+    "store_name": "Google Play",
+    "icon_url": "https://play-lh.googleusercontent.com/xOKbvDt362x1uzW-nnggP-PgO9HM4L1vwBl5HgHFHy_n1X3mqeBtOSoIyNJzTS3rrj70",
+    "description": "PayPal is a smart and secure way to shop in-store and online, earn cash back on brands you love, send money to friends and much more.\r\n\r\nSAVE OFFERS IN THE APP\r\nGet cash back offers from brands you lo",
+    "app_store_url": "",
+    "chinese_parent": "",
+    "parent_relation": ""
   }
 ]
