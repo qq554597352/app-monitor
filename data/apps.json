@@ -9198,5 +9198,37 @@
     "app_store_url": "",
     "chinese_parent": "",
     "parent_relation": ""
+  },
+  {
+    "id": "com.loanely.emi.loan.calculator.loanemicalc",
+    "name": "Loanely : EMI Loan Calculator",
+    "developer": "BundleJoy",
+    "country_code": "PK",
+    "country_name": "巴基斯坦",
+    "industry": "credit",
+    "industry_name": "信贷",
+    "store": "google_play",
+    "store_name": "Google Play",
+    "icon_url": "https://play-lh.googleusercontent.com/T3thy6i2-6WenqAL_UWz6fqtegFTV6w8BV0a2ATcblDAGavcLRozbpbDVy7sOgdd_iYVxqOBoC7whiTTcHiNXg",
+    "description": "Loanely : EMI Loan Calculator app is your ultimate financial calculation. Whether you’re calculating loan EMIs, interest rate, investment returns, and taxes calculation this app brings all essential c",
+    "app_store_url": "",
+    "chinese_parent": "",
+    "parent_relation": ""
+  },
+  {
+    "id": "com.get.instant.loan.personal.loan",
+    "name": "LoanDay - Loan Emi Calculator",
+    "developer": "Dinesh’s studio",
+    "country_code": "AU",
+    "country_name": "澳大利亚",
+    "industry": "credit",
+    "industry_name": "信贷",
+    "store": "google_play",
+    "store_name": "Google Play",
+    "icon_url": "https://play-lh.googleusercontent.com/7fQ5BsPgBESIEnxOeeuVr6reLsU-zpeMrqFt_ipBcuIpw2R8hIY3bf_Rq2VdfLdGxDnYF1opeUmN-XR4UM5S",
+    "description": "LoanDay - Loan Emi Calculator offers calculations like EMI, Compare rates, for daily use Calculate monthly EMI instantly Adjust loan amount, interest rate & tenure View principal vs interest breakdown",
+    "app_store_url": "",
+    "chinese_parent": "",
+    "parent_relation": ""
   }
 ]
