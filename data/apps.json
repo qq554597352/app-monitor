@@ -9310,5 +9310,21 @@
     "app_store_url": "",
     "chinese_parent": "",
     "parent_relation": ""
+  },
+  {
+    "id": "com.analytics.finance.manager.money.app",
+    "name": "Daily Loan - Money Tracker",
+    "developer": "SUMMIT CITY PROSTHETICS & ORTHOTICS, INC.",
+    "country_code": "PK",
+    "country_name": "巴基斯坦",
+    "industry": "credit",
+    "industry_name": "信贷",
+    "store": "google_play",
+    "store_name": "Google Play",
+    "icon_url": "https://play-lh.googleusercontent.com/fBt0cDb-XHBvoSBZIw9wCw-hTEbGhIc8FO1qVsf-TbAvupMYlHXgCQVEe01B3gmp2jroei0X-Y8u7N8ZpLjq",
+    "description": "Daily Loan - Money Tracker is your complete money manager, budget planner and finance tracker for easier personal finance control.\r\nThis smart money tracker helps you record income expense, follow exp",
+    "app_store_url": "",
+    "chinese_parent": "",
+    "parent_relation": ""
   }
 ]
