@@ -10590,5 +10590,53 @@
     "app_store_url": "",
     "chinese_parent": "",
     "parent_relation": ""
+  },
+  {
+    "id": "com.securepay.alomo",
+    "name": "Alomo.mx",
+    "developer": "ALOMO",
+    "country_code": "MX",
+    "country_name": "墨西哥",
+    "industry": "finance",
+    "industry_name": "理财",
+    "store": "google_play",
+    "store_name": "Google Play",
+    "icon_url": "https://play-lh.googleusercontent.com/J-YSw8X-jwodh_Nta3yi9YKBbRfYHjStczMHkgrq_kQBqsM4mduVYCKQVw3waSPmRQ4Q",
+    "description": "Préstamos con Alomo – Créditos personales en México\r\n\r\nDescarga la app Préstamos de Alomo y solicita el dinero que necesitas de manera sencilla.\r\n\r\nDesde tu celular, puedes pedir un crédito de forma r",
+    "app_store_url": "",
+    "chinese_parent": "",
+    "parent_relation": ""
+  },
+  {
+    "id": "com.pureloan.creditofast",
+    "name": "Préstamos Rápidos: Asistente",
+    "developer": "Kidamap",
+    "country_code": "MX",
+    "country_name": "墨西哥",
+    "industry": "finance",
+    "industry_name": "理财",
+    "store": "google_play",
+    "store_name": "Google Play",
+    "icon_url": "https://play-lh.googleusercontent.com/L28R4K_rZZ7kfT8VkeebeI_Z5kMuoPUM_ymdbNSxkkYRz8hcioDZ7Wg-ie6lfcpsvQerlIIg9X81hrocpwQAi08",
+    "description": "Préstamos Rápidos: Asistente es una plataforma de comparación y recomendación de préstamos personales.\r\n\r\n⚠️ No ofrecemos préstamos directamente. Nuestra aplicación actúa como un intermediario digital",
+    "app_store_url": "",
+    "chinese_parent": "",
+    "parent_relation": ""
+  },
+  {
+    "id": "com.supercredimax.credimaxcredito",
+    "name": "CrediMax - Préstamos en línea",
+    "developer": "Creditos Fast X",
+    "country_code": "MX",
+    "country_name": "墨西哥",
+    "industry": "finance",
+    "industry_name": "理财",
+    "store": "google_play",
+    "store_name": "Google Play",
+    "icon_url": "https://play-lh.googleusercontent.com/yLycDPrTR7gT_sXRQCokCb_nEPl68vAhC1dNe6Rm48nWbrBr7j5rEJCP6bkv__ksNw",
+    "description": "Préstamos rápidos hasta $20,000 en minutos. Aprobación rápida. ¡Descarga la aplicación y aplica ahora!\r\n\r\n ¿Por qué elegir CrediMax como prestamista?\r\n• La solicitud de registro solo toma 5 minutos\r\n•",
+    "app_store_url": "",
+    "chinese_parent": "",
+    "parent_relation": ""
   }
 ]
