@@ -3786,7 +3786,7 @@
     "store": "google_play",
     "store_name": "Google Play",
     "icon_url": "https://play-lh.googleusercontent.com/r2ZbsIr5sQ7Wtl1T6eevyWj4KS7QbezF7JYB9gxQnLWbf0K4kU7qaLNcJLLUh0WG-3pK",
-    "description": "CRED is a members-only app for all payment experiences.\r\nTrusted by over 1.4 crore+ creditworthy members, CRED rewards you for the payments & good financial decisions you make.\r\n\r\nWhat payments can yo",
+    "description": "CRED is a members-only app for all payment experiences.\r\nTrusted by over 1.4Cr+ creditworthy members, CRED rewards you for the good financial decisions you make.\r\n\r\nWhat payments can you make on CRED?",
     "app_store_url": "",
     "chinese_parent": "",
     "parent_relation": ""
@@ -8441,8 +8441,8 @@
     "industry_name": "理财",
     "store": "google_play",
     "store_name": "Google Play",
-    "icon_url": "https://play-lh.googleusercontent.com/fvchbNb5LA2UIkfmsgbLHr5ImktK8zfAijc53F-549UcXB89so49ptnFQiTHW8GskJtOK1nbgErw0TIR2O9J7Q",
-    "description": "Uno es tu cuenta digital en México para enviar dinero, acceder a crédito y manejar tus pagos  todo desde tu celular, gratis, sin filas y sin costos ocultos. Más de 900,000 personas ya confían en Uno.\r",
+    "icon_url": "https://play-lh.googleusercontent.com/E4O0IV-KopyQJj1thOh2CzqRL7ijARScH0ZXAjVF0PnK_JTDXP_pld0CAjoSsjoHYMWLxCcPv_CH4lVAB8Ymges",
+    "description": "Uno es tu cuenta digital en México para enviar dinero, acceder a crédito y manejar tus pagos todo desde tu celular, gratis, sin filas y sin costos ocultos. Más de 900,000 personas ya confían en Uno.\r\n",
     "app_store_url": "",
     "chinese_parent": "",
     "parent_relation": ""
@@ -10635,6 +10635,22 @@
     "store_name": "Google Play",
     "icon_url": "https://play-lh.googleusercontent.com/yLycDPrTR7gT_sXRQCokCb_nEPl68vAhC1dNe6Rm48nWbrBr7j5rEJCP6bkv__ksNw",
     "description": "Préstamos rápidos hasta $20,000 en minutos. Aprobación rápida. ¡Descarga la aplicación y aplica ahora!\r\n\r\n ¿Por qué elegir CrediMax como prestamista?\r\n• La solicitud de registro solo toma 5 minutos\r\n•",
+    "app_store_url": "",
+    "chinese_parent": "",
+    "parent_relation": ""
+  },
+  {
+    "id": "com.afunmx.main.mx",
+    "name": "Afun.MX - Casino Slots 777",
+    "developer": "Afun",
+    "country_code": "MX",
+    "country_name": "墨西哥",
+    "industry": "finance",
+    "industry_name": "理财",
+    "store": "google_play",
+    "store_name": "Google Play",
+    "icon_url": "https://play-lh.googleusercontent.com/urNIkF86Yzni-Ql3OXdvy1-pZRc1lxce7KVnBD6Eeq9YU81mwRLRvBk5sVAPhfDX2YirhrMcc31BBwSBG5yMYg",
+    "description": "🎰 Afun.MX – Casino online en México\r\n\r\nAfun.MX es una app de casino online diseñada para usuarios en México, ideal para quienes buscan una experiencia de entretenimiento digital tipo casino desde el m",
     "app_store_url": "",
     "chinese_parent": "",
     "parent_relation": ""
