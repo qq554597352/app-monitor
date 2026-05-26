@@ -4273,7 +4273,7 @@
   },
   {
     "id": "finance.empower.mx",
-    "name": "Tilt: préstamo rápido",
+    "name": "Tilt: préstamos rápidos",
     "developer": "Tilt Finance",
     "country_code": "MX",
     "country_name": "墨西哥",
@@ -11099,6 +11099,22 @@
     "store_name": "Google Play",
     "icon_url": "https://play-lh.googleusercontent.com/qk1I7ym1ajn05XNlHQR-wTrfC7Ra_1ly6MrPIO4dQGagggdYSjmf7ObxnAheevV7YiiSw-TLUH7kqfofkafRuf0",
     "description": "Con tu nueva DiDi Cuenta, tener dinero extra todos los días es posible: \r\n\r\n-Todo tu dinero crece: tu saldo crece todos los días por solo tenerlo en tu cuenta.\r\n-Disponible 24/7: envía y recibe dinero",
+    "app_store_url": "",
+    "chinese_parent": "",
+    "parent_relation": ""
+  },
+  {
+    "id": "directlending.bnpl.mobile",
+    "name": "Direct Lending - BNPL Malaysia",
+    "developer": "Direct Lending",
+    "country_code": "MY",
+    "country_name": "马来西亚",
+    "industry": "credit",
+    "industry_name": "信贷",
+    "store": "google_play",
+    "store_name": "Google Play",
+    "icon_url": "https://play-lh.googleusercontent.com/v1EL9NWy7FayXVmoZKUeab57oXe3Nz9uzopIQ2xbzCHF_-GuZNC4m2JFAhgfZq6DxjM2djqgMTB5LD4Kow9djg",
+    "description": "Direct Lending — Pay Later for What Matters Most\r\n\r\nCar broke down? Need medical treatment? Don't worry — with Direct Lending, get the services you need now and pay in easy monthly instalments.\r\n\r\nDir",
     "app_store_url": "",
     "chinese_parent": "",
     "parent_relation": ""
