@@ -730,7 +730,7 @@
     "store": "google_play",
     "store_name": "Google Play",
     "icon_url": "https://play-lh.googleusercontent.com/R3LwJdJgz3bgbB34SZVcKleXSfStvpl5-_MPSeN8oUPr6CDPE7VQI_C8dfvC33W-jrDHhdCy1KbZIULbZPPHwA",
-    "description": "<b>Produk Pinjaman Uang Daring</b>\r\nTenor pinjaman daring mulai 91 hari s/d 360 hari \r\nPlafon pinjaman dana tunai hingga Rp 50.000.000,-\r\nBunga rendah: Pilih pinjaman uang tunai dengan tenor 180 hari ",
+    "description": "<b>Produk Pinjaman Uang Online</b>\r\nTenor pinjaman daring mulai 91 hari s/d 360 hari \r\nPlafon pinjaman dana tunai hingga Rp 50.000.000,-\r\nBunga rendah: Pilih pinjaman uang tunai dengan tenor 180 hari ",
     "app_store_url": "",
     "chinese_parent": "ADVANCE.AI（新加坡，腾讯参股）",
     "parent_relation": "投资方"
@@ -11115,6 +11115,22 @@
     "store_name": "Google Play",
     "icon_url": "https://play-lh.googleusercontent.com/v1EL9NWy7FayXVmoZKUeab57oXe3Nz9uzopIQ2xbzCHF_-GuZNC4m2JFAhgfZq6DxjM2djqgMTB5LD4Kow9djg",
     "description": "Direct Lending — Pay Later for What Matters Most\r\n\r\nCar broke down? Need medical treatment? Don't worry — with Direct Lending, get the services you need now and pay in easy monthly instalments.\r\n\r\nDir",
+    "app_store_url": "",
+    "chinese_parent": "",
+    "parent_relation": ""
+  },
+  {
+    "id": "com.tunai.cakra.amanah",
+    "name": "Tunai Cakra - Kredit Online",
+    "developer": "PT DIGITAL VISION SOFTWORKS",
+    "country_code": "ID",
+    "country_name": "印尼",
+    "industry": "credit",
+    "industry_name": "信贷",
+    "store": "google_play",
+    "store_name": "Google Play",
+    "icon_url": "https://play-lh.googleusercontent.com/Oq9tjht5ZG5aT-gnUbkBo2mTQEV55d9QimLfAhAYixKvIKrAv2arm77kKrqaeQFIaC06",
+    "description": "Tunai Cakra adalah sebuah platform perantara yang berfokus pada penyediaan layanan pencocokan dan rekomendasi informasi pinjaman bagi pengguna di Indonesia. Kami tidak memberikan pinjaman secara langs",
     "app_store_url": "",
     "chinese_parent": "",
     "parent_relation": ""
