@@ -11342,5 +11342,37 @@
     "app_store_url": "",
     "chinese_parent": "",
     "parent_relation": ""
+  },
+  {
+    "id": "com.ph.pinoy.peso",
+    "name": "Pinoy Peso",
+    "developer": "Inclusive Credit Lending Inc",
+    "country_code": "PH",
+    "country_name": "菲律宾",
+    "industry": "credit",
+    "industry_name": "信贷",
+    "store": "google_play",
+    "store_name": "Google Play",
+    "icon_url": "https://play-lh.googleusercontent.com/aAxG5qAeE0AZWw2XTzp27ktttGLO3wo82pngLB-HmDB-gA7rw-GeFmt9YV_cKOOkt5Va8gxq9DMOF9bZYMlO",
+    "description": "Get funds for unexpected expenses or urgent financial needs with Pinoy Peso. Our microloan app offers a seamless and transparent experience. Apply in minutes, enjoy competitive interest rates, and fle",
+    "app_store_url": "",
+    "chinese_parent": "",
+    "parent_relation": ""
+  },
+  {
+    "id": "com.tpaay.bigpay",
+    "name": "BigPay – financial services",
+    "developer": "Big Pay",
+    "country_code": "MY",
+    "country_name": "马来西亚",
+    "industry": "finance",
+    "industry_name": "理财",
+    "store": "google_play",
+    "store_name": "Google Play",
+    "icon_url": "https://play-lh.googleusercontent.com/rcj1FygVxUcy0VspZxmALVR-woOAX_eEEctvuovAGVqnl2escRUKdknaDa1-fwED7fY",
+    "description": "With the power to manage your money anywhere, BigPay has one purpose, - to empower you with essential financial services to level up your lives, one transaction at a time. With the flexibility of a mo",
+    "app_store_url": "",
+    "chinese_parent": "",
+    "parent_relation": ""
   }
 ]
