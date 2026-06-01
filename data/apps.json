@@ -2881,7 +2881,7 @@
   },
   {
     "id": "au.com.up.money",
-    "name": "Up — Easy Money",
+    "name": "Up — Simplify Money",
     "developer": "Up Money",
     "country_code": "AU",
     "country_name": "澳大利亚",
@@ -3713,7 +3713,7 @@
   },
   {
     "id": "com.bearloancalculator",
-    "name": "Bear Loan Calculator",
+    "name": "Mortgage APR Calculator Bear",
     "developer": "Bear16",
     "country_code": "GB",
     "country_name": "英国",
@@ -3722,7 +3722,7 @@
     "store": "google_play",
     "store_name": "Google Play",
     "icon_url": "https://play-lh.googleusercontent.com/BoLAtazWwGhEJdL8sQBh0rQUShObeufbCaBpfRYAKKOdWTDELe6Kl35cfQYw_WojOJA1",
-    "description": "Bear Loan Calculator is a powerful loan calculator app that helps users calculate their monthly loan payments, including both principal and interest. With a user-friendly interface and a variety of fe",
+    "description": "Estimate your mortgage payment, APR, total interest, and payoff schedule before you choose a home loan.\r\nBear is a mortgage calculator and repayment planner only. It does not offer loans, approve appl",
     "app_store_url": "",
     "chinese_parent": "",
     "parent_relation": ""
