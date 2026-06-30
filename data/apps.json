@@ -6410,7 +6410,7 @@
     "store": "google_play",
     "store_name": "Google Play",
     "icon_url": "https://play-lh.googleusercontent.com/LQV793sfZL9ctTfKSrm8WEMaNINVgh-yhWq79nlxXXq4KQY_n1jZwqxmVOJM9vqRp7ldpobS0aVBvuOSMCdHfQ",
-    "description": "Get your first Cash Loan or Virtual Mastercard on Mocasa – Hassle-free! Instant approval & 0% processing fee.\r\n\r\nMocasa Quick Loan Highlights:\r\n● Loan amount: ₱2,000.00 - ₱50,000.00\r\n● Loan term: 91 d",
+    "description": "Get your first Cash Loan or Virtual Mastercard on Mocasa – Hassle-free! Instant approval with transparent pricing.\r\n\r\nMocasa Quick Loan Highlights:\r\n· Loan amount: ₱1,000.00 - ₱50,000.00\r\n· Loan term:",
     "app_store_url": "",
     "chinese_parent": "",
     "parent_relation": ""
@@ -12034,7 +12034,7 @@
   {
     "id": "com.repayment.planner.loan.calculator.tracker",
     "name": "Auto Loan - Finance Calculator",
-    "developer": "gianadani",
+    "developer": "KEYBENTO L",
     "country_code": "AU",
     "country_name": "澳大利亚",
     "industry": "credit",
@@ -12283,6 +12283,22 @@
     "store_name": "Google Play",
     "icon_url": "https://play-lh.googleusercontent.com/GsXak4st0OlZwIM0LRdPSBu-n7ZAstRsSUkM9uhONPPCFDBGm2co76h63udAH6kpwEpT_BDDGZHh8yD6MehOpg",
     "description": "Welcome to Flash Credit – Instant Cash, your trusted platform for simple, fast, and secure personal loans. We offer fixed interest rates with a maximum APR of just 10%, no hidden charges, and a comple",
+    "app_store_url": "",
+    "chinese_parent": "",
+    "parent_relation": ""
+  },
+  {
+    "id": "com.renmoney.android",
+    "name": "Renmoney: Loan & Savings App",
+    "developer": "Renmoney MFB",
+    "country_code": "AU",
+    "country_name": "澳大利亚",
+    "industry": "insurance",
+    "industry_name": "保险",
+    "store": "google_play",
+    "store_name": "Google Play",
+    "icon_url": "https://play-lh.googleusercontent.com/dzBS1yfwWgqevW8qyaOmPiIKdoIxXr-YTrpKbh77IOsmXI3S257eVD4OUWcKBrZFjw3uAQ2z761WgYJGMVZKqqo",
+    "description": "Renmoney is one of Nigeria's most trusted loan apps, serving over 3 million customers for more than 14 years. Borrow, save, and grow your money — all in one secure app, regulated by the CBN and insure",
     "app_store_url": "",
     "chinese_parent": "",
     "parent_relation": ""
