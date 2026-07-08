@@ -1225,7 +1225,7 @@
     "industry_name": "信贷",
     "store": "google_play",
     "store_name": "Google Play",
-    "icon_url": "https://play-lh.googleusercontent.com/WOjGi3ZzSq2zgbNcpmsqs6ZvwHqUIFD00-1oMXSjCw93iSJ4Ng-HVlX8urGdzuguzwk3",
+    "icon_url": "https://play-lh.googleusercontent.com/wtMGY5ivCDwsv37F0wClmD6MUh1QPw_PFnaKHDfA9Dlzal1yqcM4WXZ8nJ4C3ZQcbtlan2nK9eKFZXBRBseABA",
     "description": "Meet the mobile app for Prodigy Finance customers. Access your loan information wherever you are, whenever you need to. Log in with your existing Prodigy Finance account details and view information a",
     "app_store_url": "",
     "chinese_parent": "",
@@ -9258,7 +9258,7 @@
     "store": "google_play",
     "store_name": "Google Play",
     "icon_url": "https://play-lh.googleusercontent.com/sKBoXr4f0ndUIDoFkigLnleMy1GoHy9SSH8p0-R9kQcP2wffJqoqiAb7Q22NMau48pODTIgF_yzZHPoehZun4g",
-    "description": "CreditXpress: Convenient Digital Financial Assistant\r\n\r\nCreditXpress provides users with secure, transparent, and structured personal financial information and loan matching services. Our goal is to h",
+    "description": "CreditXpress: Pembantu Kewangan Digital Anda\r\n\r\nCreditXpress menyediakan perkhidmatan maklumat kewangan peribadi dan pemadanan pinjaman yang selamat, telus dan berstruktur. Kami komited untuk membantu",
     "app_store_url": "",
     "chinese_parent": "",
     "parent_relation": ""
@@ -11105,7 +11105,7 @@
   },
   {
     "id": "directlending.bnpl.mobile",
-    "name": "Direct Lending - BNPL Malaysia",
+    "name": "Lenda Pay by Direct Lending",
     "developer": "Direct Lending",
     "country_code": "MY",
     "country_name": "马来西亚",
@@ -11113,8 +11113,8 @@
     "industry_name": "信贷",
     "store": "google_play",
     "store_name": "Google Play",
-    "icon_url": "https://play-lh.googleusercontent.com/v1EL9NWy7FayXVmoZKUeab57oXe3Nz9uzopIQ2xbzCHF_-GuZNC4m2JFAhgfZq6DxjM2djqgMTB5LD4Kow9djg",
-    "description": "Direct Lending — Pay Later for What Matters Most\r\n\r\nCar broke down? Need medical treatment? Don't worry — with Direct Lending, get the services you need now and pay in easy monthly instalments.\r\n\r\nDir",
+    "icon_url": "https://play-lh.googleusercontent.com/hxLHBuQUv0qNBPam9tVK3EJFI1E_LDUgsDyIs-z6rZhfQMB0gcF3j6DaV29lQ_y1XAhBDF1o9DJqM6nwuNDToMA",
+    "description": "Bila Perlu, Lenda Bayar Dulu.\r\n\r\nCar broke down? Need medical treatment? Don't worry. With Lenda Pay by Direct Lending, you can get the services you need now and pay in easy monthly instalments.\r\n\r\nLe",
     "app_store_url": "",
     "chinese_parent": "",
     "parent_relation": ""
