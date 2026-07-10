@@ -12366,5 +12366,53 @@
     "app_store_url": "",
     "chinese_parent": "",
     "parent_relation": ""
+  },
+  {
+    "id": "com.take.cash",
+    "name": "LoadCash",
+    "developer": "EUCLASE INFORMATION TECHNOLOGY CORPORATION",
+    "country_code": "PH",
+    "country_name": "菲律宾",
+    "industry": "credit",
+    "industry_name": "信贷",
+    "store": "google_play",
+    "store_name": "Google Play",
+    "icon_url": "https://play-lh.googleusercontent.com/dUAXiZi1157Q8w1t7IJbgD94VZcnvxJXRfC0TNvAKM5eCxISCEw6HGGqvw9uU0NZMYZivuenxI7YBX5Dz_9GVg",
+    "description": "LoadCash provides accessible online loan services structured as personal credit lines to meet your liquidity needs.\r\n\r\n➠Product Info\r\n✅Loan amount: ₱ 2,000 - ₱ 50,000\r\n✅Loan term: 91 days - 180 days\r\n",
+    "app_store_url": "",
+    "chinese_parent": "",
+    "parent_relation": ""
+  },
+  {
+    "id": "com.loansathi.emicalculator.loancalc",
+    "name": "Loan Stat-Loan EMI Calculator",
+    "developer": "Pi Games Studio",
+    "country_code": "AU",
+    "country_name": "澳大利亚",
+    "industry": "credit",
+    "industry_name": "信贷",
+    "store": "google_play",
+    "store_name": "Google Play",
+    "icon_url": "https://play-lh.googleusercontent.com/yw84TmaxJBLR4cmLukZgglFWFW-y8ML_ShL0WQikdDz7GlEd1U9wLMVcYHuZAdZn2-LcoBF2U5p3JbWt6Lpe8Q",
+    "description": "Loan Stat - Loan EMI Calculator is a simple and useful finance calculator app designed for everyday calculations and planning. The app includes different financial and utility calculators that help us",
+    "app_store_url": "",
+    "chinese_parent": "",
+    "parent_relation": ""
+  },
+  {
+    "id": "uk.co.tsb.newmobilebank",
+    "name": "TSB Mobile Banking",
+    "developer": "TSB Bank plc.",
+    "country_code": "GB",
+    "country_name": "英国",
+    "industry": "finance",
+    "industry_name": "理财",
+    "store": "google_play",
+    "store_name": "Google Play",
+    "icon_url": "https://play-lh.googleusercontent.com/1BSYgkiGDjvr-s-tC8U0vMiQKnI2D8mwfj7AgVPWuU10Z8raIKoRNngcPC4pOr1YotHYCDgmyrPy4xRyGd01Qj4",
+    "description": "Say hello to your TSB Mobile Banking App.\r\n\r\nManage all your TSB accounts securely in one place. Check your balance, make payments, move money into Savings Pots and stay in control of your cards—anyti",
+    "app_store_url": "",
+    "chinese_parent": "",
+    "parent_relation": ""
   }
 ]
