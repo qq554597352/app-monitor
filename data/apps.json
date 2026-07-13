@@ -9370,7 +9370,7 @@
     "store": "google_play",
     "store_name": "Google Play",
     "icon_url": "https://play-lh.googleusercontent.com/WPhVbKcyjMY8uI3pNIsVFlBCEIH8WN_1bAgPk5rpPuspRoOkxQedkhptx_qGAaVWCxxIGUNmveNC_G4nsAh6Wo4",
-    "description": "CashBazar - Loans Made Simple, Trust Earned Daily.\r\n\r\nLicensed by the Securities and Exchange Commission of Pakistan (SECP) under Non-Banking Finance Company (NBFC) License No. SECP/LRD/92/BFSL/2022-8",
+    "description": "CashBazar - Loans Made Simple, Trust Earned Daily.\r\n\r\nLicensed by the Securities and Exchange Commission of Pakistan (SECP) under Non-Banking Finance Company (NBFC) License No. SECP/LRD/LD/92/S A/BFSL",
     "app_store_url": "",
     "chinese_parent": "",
     "parent_relation": ""
@@ -12430,5 +12430,21 @@
     "app_store_url": "",
     "chinese_parent": "Ant Group（蚂蚁集团）",
     "parent_relation": "战略股东"
+  },
+  {
+    "id": "finance.slana.mx",
+    "name": "Slana: préstamos de dinero",
+    "developer": "Pronto Fondeo",
+    "country_code": "MX",
+    "country_name": "墨西哥",
+    "industry": "finance",
+    "industry_name": "理财",
+    "store": "google_play",
+    "store_name": "Google Play",
+    "icon_url": "https://play-lh.googleusercontent.com/Bncw0-htRl7w_NhN-nMQ2mSqtbR-NKWfsr6SVBdPeO757PrHxd2A6ueubFUitUfFPtzKKLl_dmjqOi9BeaHYWw",
+    "description": "Slana: Préstamo rápido y seguro en México\r\n\r\nObtén tu préstamo personal en línea de forma rápida, segura y 100% desde tu celular. Solicita hasta $30,000 MXN con nuestra app de préstamos y recibe respu",
+    "app_store_url": "",
+    "chinese_parent": "",
+    "parent_relation": ""
   }
 ]
