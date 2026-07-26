@@ -12846,5 +12846,37 @@
     "app_store_url": "",
     "chinese_parent": "",
     "parent_relation": ""
+  },
+  {
+    "id": "com.loan.secure.finance.capital.manager.pro",
+    "name": "Easy Loan: Finance Tools",
+    "developer": "TheND",
+    "country_code": "PK",
+    "country_name": "巴基斯坦",
+    "industry": "credit",
+    "industry_name": "信贷",
+    "store": "google_play",
+    "store_name": "Google Play",
+    "icon_url": "https://play-lh.googleusercontent.com/HXT_LncydzM5DMZ6dE9dpnVrg38QTmiCIISL6lTpdwd7EAqiC30ypg-c-6zjiAesaRTfwYq5pY5my1oKPNLF",
+    "description": "Easy Loan: Finance Tools is your reliable companion for everyday financial planning. Whether you need to calculate loan payments, estimate mortgage costs, or plan your finances, this app provides prac",
+    "app_store_url": "",
+    "chinese_parent": "",
+    "parent_relation": ""
+  },
+  {
+    "id": "com.finance.fifteen.loanvalid.emicalculator.hadu",
+    "name": "EasyLoan Loan Utility",
+    "developer": "Akala Infotech",
+    "country_code": "PK",
+    "country_name": "巴基斯坦",
+    "industry": "credit",
+    "industry_name": "信贷",
+    "store": "google_play",
+    "store_name": "Google Play",
+    "icon_url": "https://play-lh.googleusercontent.com/nLCXMzWhGT1UvOpgbuFYmmDkvw1cOLtcnO9WugILrywxAnjXus_68Btt4Oo3kW8gaTmyGrnCFSIiBNB1ieZx",
+    "description": "EasyLoan Loan Utility is a handy financial calculation app designed to help users estimate loan repayments and explore various financial planning tools with ease.\r\n\r\nWhether you are planning a persona",
+    "app_store_url": "",
+    "chinese_parent": "",
+    "parent_relation": ""
   }
 ]
