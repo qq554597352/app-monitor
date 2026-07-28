@@ -12878,5 +12878,37 @@
     "app_store_url": "",
     "chinese_parent": "",
     "parent_relation": ""
+  },
+  {
+    "id": "com.omegacreditunion.omegaloans",
+    "name": "Omega Loans",
+    "developer": "Capitalpoint Limited",
+    "country_code": "AU",
+    "country_name": "澳大利亚",
+    "industry": "credit",
+    "industry_name": "信贷",
+    "store": "google_play",
+    "store_name": "Google Play",
+    "icon_url": "https://play-lh.googleusercontent.com/dub_srU6plNaNoS7LijHI7zknPl7r5ef3kSz0hjrZI0TOQC5eVasjS29LxDs0iqaGMuoDxKkJ4g_TGAFj8In",
+    "description": "Need funds—without the headache? \r\nOmega Loans offers affordable instant loans with transparent pricing, flexible terms, and fast disbursement to eligible customers.\r\nWhy Omega Loans \r\n•\tFair rates:  ",
+    "app_store_url": "",
+    "chinese_parent": "",
+    "parent_relation": ""
+  },
+  {
+    "id": "com.dinero.megacash.credit.loan",
+    "name": "Rápido y Seguro:Megacash",
+    "developer": "FORAWAY, S.A.P.I. DE C.V., SOFOM, ENR",
+    "country_code": "MX",
+    "country_name": "墨西哥",
+    "industry": "finance",
+    "industry_name": "理财",
+    "store": "google_play",
+    "store_name": "Google Play",
+    "icon_url": "https://play-lh.googleusercontent.com/ZpsPcX9cmbNF5wGZIUXRLDO4HmH1Hk2OF8Ue87jZszT1OBLAr_J4rUPGeX76a6Nh-9Epf_uYGQAlp5Gpy7UQZg",
+    "description": "Megacash: Préstamos Personales con Tarifas Claras 💙\r\n¿Necesitas un apoyo financiero? Megacash, de la compañía regulada FORAWAY, S.A.P.I. DE C.V., SOFOM, ENR, te ofrece préstamos en línea con términos ",
+    "app_store_url": "",
+    "chinese_parent": "",
+    "parent_relation": ""
   }
 ]
