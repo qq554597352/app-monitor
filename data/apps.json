@@ -2618,7 +2618,7 @@
     "store": "google_play",
     "store_name": "Google Play",
     "icon_url": "https://play-lh.googleusercontent.com/kAkvJCvsUG87_ziqPhajP08tWK7OBvLp4S_J7l85c0TuYU6oiN-KNe1pH2E50XPk7RIJjs_kakaGfeY_9TkFHQ",
-    "description": "At MONEYME, we're all about saving you time and money. A better experience starts here – with bank-beating rates, same-day approvals, and standout customer service.\r\nAnd as a proud B Corp, we're build",
+    "description": "At MONEYME, we're all about saving you time and money. A better experience starts here – with bank-beating rates, same-day approvals, and standout customer service.\r\n\r\nAnd as a proud B Corp, we're bui",
     "app_store_url": "",
     "chinese_parent": "",
     "parent_relation": ""
@@ -12907,6 +12907,22 @@
     "store_name": "Google Play",
     "icon_url": "https://play-lh.googleusercontent.com/ZpsPcX9cmbNF5wGZIUXRLDO4HmH1Hk2OF8Ue87jZszT1OBLAr_J4rUPGeX76a6Nh-9Epf_uYGQAlp5Gpy7UQZg",
     "description": "Megacash: Préstamos Personales con Tarifas Claras 💙\r\n¿Necesitas un apoyo financiero? Megacash, de la compañía regulada FORAWAY, S.A.P.I. DE C.V., SOFOM, ENR, te ofrece préstamos en línea con términos ",
+    "app_store_url": "",
+    "chinese_parent": "",
+    "parent_relation": ""
+  },
+  {
+    "id": "com.alliance.AOPMobileApp",
+    "name": "allianceonline Mobile",
+    "developer": "Alliance Bank Malaysia Berhad",
+    "country_code": "MY",
+    "country_name": "马来西亚",
+    "industry": "finance",
+    "industry_name": "理财",
+    "store": "google_play",
+    "store_name": "Google Play",
+    "icon_url": "https://play-lh.googleusercontent.com/bulKtgjwjvDBe6M5PW50X90swOjS8ALaEA0mnLItkbulHpLwerZ5Hyx_PxD0ZRQ_hRLfFYaXwTq38x_uta5bKtQ",
+    "description": "Stay in control with the all-new allianceonline mobile! The app is designed for your banking convenience, providing secured and personalised banking services, including viewing of account balances, fu",
     "app_store_url": "",
     "chinese_parent": "",
     "parent_relation": ""
