@@ -13102,5 +13102,21 @@
     "app_store_url": "",
     "chinese_parent": "",
     "parent_relation": ""
+  },
+  {
+    "id": "com.loan.calculator.emi.easyloan.instantloan.akab.app",
+    "name": "Instant Cash - Loan Calculator",
+    "developer": "VortexPlay Tech",
+    "country_code": "AU",
+    "country_name": "澳大利亚",
+    "industry": "credit",
+    "industry_name": "信贷",
+    "store": "google_play",
+    "store_name": "Google Play",
+    "icon_url": "https://play-lh.googleusercontent.com/E39iUbilVU0w5OdS8rGbMunF5ybzLvuiNAVVAsu1GACTLj2xppWkVTB_HZ7IHfIe9iIaz4zOuHhTIoYyN132_Nw",
+    "description": "Instant Cash Loan Calculator is an all-in-one financial calculator that helps you plan loans, savings, investments, and taxes in seconds. Whether you're comparing EMIs, estimating returns, or calculat",
+    "app_store_url": "",
+    "chinese_parent": "",
+    "parent_relation": ""
   }
 ]
