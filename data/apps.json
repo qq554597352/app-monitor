@@ -13118,5 +13118,37 @@
     "app_store_url": "",
     "chinese_parent": "",
     "parent_relation": ""
+  },
+  {
+    "id": "id.co.bankfama.android",
+    "name": "Superbank: Tabungan & Pinjaman",
+    "developer": "PT Super Bank Indonesia Tbk",
+    "country_code": "ID",
+    "country_name": "印尼",
+    "industry": "credit",
+    "industry_name": "信贷",
+    "store": "google_play",
+    "store_name": "Google Play",
+    "icon_url": "https://play-lh.googleusercontent.com/c7iO5Pl3VskOy3s4ejadyFW8SDwiOsAQ4pPlz9ciTqdeUjYXrKeW2-mgIysVbmdX8xbq8msgMRWilPC1lKtOkg",
+    "description": "Nabung seru, makin untung, dan pastinya aman bareng Superbank!\r\n\r\nSuperbank adalah bagian dari Grab, Emtek, GxS, dan KakaoBank.\r\n\r\nNikmati cara baru kelola keuangan yang gampang, transparan, dan makin",
+    "app_store_url": "",
+    "chinese_parent": "",
+    "parent_relation": ""
+  },
+  {
+    "id": "com.loanbank.loanemi.bankcalculator",
+    "name": "Loan Bank :Loan EMI Calculator",
+    "developer": "SAKAL HEALTH CARE PRIVATE LIMITED",
+    "country_code": "AU",
+    "country_name": "澳大利亚",
+    "industry": "credit",
+    "industry_name": "信贷",
+    "store": "google_play",
+    "store_name": "Google Play",
+    "icon_url": "https://play-lh.googleusercontent.com/CmlvM_x-hyYs6AMLnqxRys3JbW_2oj42DSd5F0cUkVOFI-Yvd6SOvlAZsg1aBkqe5BMuwlLtTHCnFzObKXLTtz8",
+    "description": "Loan Bank:Loan EMI Calculator brings together essential financial calculators and utility tools to support everyday calculation needs.\r\n\r\nFrom EMI and loan repayment estimates to investment and saving",
+    "app_store_url": "",
+    "chinese_parent": "",
+    "parent_relation": ""
   }
 ]
