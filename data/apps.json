@@ -13150,5 +13150,21 @@
     "app_store_url": "",
     "chinese_parent": "",
     "parent_relation": ""
+  },
+  {
+    "id": "com.deutsche.pnb.cagaran",
+    "name": "CreditXpress Plus",
+    "developer": "OPG Capital Holdings",
+    "country_code": "MY",
+    "country_name": "马来西亚",
+    "industry": "credit",
+    "industry_name": "信贷",
+    "store": "google_play",
+    "store_name": "Google Play",
+    "icon_url": "https://play-lh.googleusercontent.com/JUeyaxCw0e6d3Q_CXYrl2G2-t_RRNW7CyiV4pnZpesx6WnQJumgd1vaJetJIiwyolU73tr6hLHsNxw8yV_FKxTo",
+    "description": "CreditXpress Plus - Online Cash Loans in Malaysia\r\n\r\nNeed extra cash for planned expenses or unexpected needs? CreditXpress Plus provides a paperless online personal loan application service for eligi",
+    "app_store_url": "",
+    "chinese_parent": "",
+    "parent_relation": ""
   }
 ]
