@@ -801,7 +801,7 @@
   },
   {
     "id": "com.iss.client.cairin",
-    "name": "Cairin: Pinjaman Dana Instan",
+    "name": "Cairin: Pinjaman Daring Cepat",
     "developer": "PT. Idana Solusi Sejahtera",
     "country_code": "ID",
     "country_name": "印尼",
@@ -812,8 +812,8 @@
     "icon_url": "https://play-lh.googleusercontent.com/XAbZddTQoN5lpXIKl7IauALKA9WxTa4R7vokhz275qut5neaNN97hTolrsZvOas0LWA5EZEPW6UdftIH534h1g",
     "description": "Cairin adalah aplikasi pinjaman tunai instan yang tidak memerlukan agunan.\r\n\r\nProduk Pinjaman\r\n●Limit Pinjaman: Rp500.000 - Rp100.000.000\r\n●Jangka Waktu Pinjaman Tunai: Tenor mulai dari 91 hingga 365 ",
     "app_store_url": "",
-    "chinese_parent": "Ant Group（蚂蚁集团）",
-    "parent_relation": "战略股东"
+    "chinese_parent": "",
+    "parent_relation": ""
   },
   {
     "id": "com.id.kredi360",
