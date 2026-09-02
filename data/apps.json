@@ -3322,7 +3322,7 @@
     "store": "google_play",
     "store_name": "Google Play",
     "icon_url": "https://play-lh.googleusercontent.com/vMLqRaBHMNYyYTJRJiNRL7U4_1VkysHHp-HNWKCRAgM0iMuyApFIuHBWC0lE-6H7b5T6vJ0SL-zf1oJ1cwZt9w",
-    "description": "Hi, we're Zable. Download our app to join over 1 million of our credit card and loan customers.\r\n\r\nRated 'Excellent' on TrustPilot:\r\n\r\n- Quick eligibility check: it won't affect your credit score\r\n- A",
+    "description": "Hi, we're Zable. Download our app to join over 2 million customers taking control of their finances.\r\n\r\nRated 'Excellent' On TrustPilot:\r\n\r\n• Quick eligibility check: it won't affect your credit score",
     "app_store_url": "",
     "chinese_parent": "",
     "parent_relation": ""
@@ -4993,7 +4993,7 @@
   },
   {
     "id": "co.id.lumbungdana.android",
-    "name": "Lumbung Dana - Pinjaman Daring",
+    "name": "RpDana (ex-LumbungDana)",
     "developer": "PT LUMBUNG DANA INDONESIA",
     "country_code": "ID",
     "country_name": "印尼",
@@ -5001,8 +5001,8 @@
     "industry_name": "信贷",
     "store": "google_play",
     "store_name": "Google Play",
-    "icon_url": "https://play-lh.googleusercontent.com/iiuaGqi7Svo7HG2cH2bDzWPtDJjnv1RhyBCXNiVhF_gVZF0zN1acA3wff5WEZioSwDEWutr-hAmK2llCK_tx",
-    "description": "Produk Pinjaman\r\n- Pinjam Uang：Rp 1.000.000 – Rp 60.000.000\r\n- Tenor yang kami berikan adalah 91 - 365 hari. \r\n- Suku bunga (maksimum): APR 29.2% per tahun.\r\n \r\nContoh:\r\n- Jumlah Permohonan Pinjaman D",
+    "icon_url": "https://play-lh.googleusercontent.com/p33iUsFYFLotrAn-I2MtH53FC5b8Um-K9LUt8-JByuhgVVgO2QjcKOzGYKypgIHhqWB_QlHKFu9qcXhOcYNAuw",
+    "description": "Produk Pinjaman\r\n- Nilai Pinjaman：Rp 1.000.000 – Rp 60.000.000\r\n- Tenor yang kami berikan adalah 91 - 365 hari.\r\n- Suku bunga (maksimum): APR 29.2% per tahun.\r\n\r\nContoh:\r\n- Jumlah Pengajuan Pinjaman D",
     "app_store_url": "",
     "chinese_parent": "Ant Group（蚂蚁集团）",
     "parent_relation": "战略股东"
