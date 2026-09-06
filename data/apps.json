@@ -8401,7 +8401,7 @@
   },
   {
     "id": "mx.prestamos.urgente.dinero.online.peso.viva.credito.rapido",
-    "name": "We Finanzas: Crédito Rápido",
+    "name": "We Finanzas: Préstamo Rápido",
     "developer": "Donald Dorothy Davis",
     "country_code": "MX",
     "country_name": "墨西哥",
@@ -13771,6 +13771,22 @@
     "store_name": "Google Play",
     "icon_url": "https://play-lh.googleusercontent.com/FxvF2m3jQzRiL7ZU3H4I0MaoEFvA1uLrLXbWyN0RXGBpHaHjyNUJU4N2q8YfPCvquXPo-VKQUouLdteKWLaixg",
     "description": "Zazá se dedica a ofrecer a sus usuarios servicios de préstamo personales confiables y con altos estándares de seguridad, cumpliendo con toda la normativa financiera mexicana vigente.\r\nDetalles del pré",
+    "app_store_url": "",
+    "chinese_parent": "",
+    "parent_relation": ""
+  },
+  {
+    "id": "com.proloanglobal",
+    "name": "ProLoan",
+    "developer": "Wsrirapol",
+    "country_code": "MY",
+    "country_name": "马来西亚",
+    "industry": "credit",
+    "industry_name": "信贷",
+    "store": "google_play",
+    "store_name": "Google Play",
+    "icon_url": "https://play-lh.googleusercontent.com/WKqgWXKAA-0otBLJcz2CAt3aIV8-ns8mQUzWlCZnB3Rz2_PuD6j1c4R8RDVIYpWkKKobrksFvMBnOFLyf8hnETA",
+    "description": "Penat mengisi borang yang panjang tetapi akhirnya tidak mendapat pinjaman yang sesuai?\r\n\r\nProLoan membantu anda mencari tawaran pinjaman yang telus dan berlesen dengan cepat — termasuk tawaran kadar f",
     "app_store_url": "",
     "chinese_parent": "",
     "parent_relation": ""
