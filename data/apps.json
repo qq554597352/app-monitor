@@ -13790,5 +13790,21 @@
     "app_store_url": "",
     "chinese_parent": "",
     "parent_relation": ""
+  },
+  {
+    "id": "com.kred.app",
+    "name": "Kred - Personal Loan Manager",
+    "developer": "Abishek Asir",
+    "country_code": "GB",
+    "country_name": "英国",
+    "industry": "credit",
+    "industry_name": "信贷",
+    "store": "google_play",
+    "store_name": "Google Play",
+    "icon_url": "https://play-lh.googleusercontent.com/tKcExzhrPI4E78VjPVSvkQ2RpKxbY8q0WL50okGpAWf3eTwQzXceUUuFNcjS-7r2RjvUaDIZnnmhdIDzRsN5",
+    "description": "Kred helps you track money you've lent to friends and family — so you never forget who owes you what.\r\n\r\n• Add loans in seconds — name, amount, due date\r\n• See overdue, active, and closed loans at a g",
+    "app_store_url": "",
+    "chinese_parent": "",
+    "parent_relation": ""
   }
 ]
