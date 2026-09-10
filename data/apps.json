@@ -13806,5 +13806,21 @@
     "app_store_url": "",
     "chinese_parent": "",
     "parent_relation": ""
+  },
+  {
+    "id": "com.boardkingsrewards.boardkingsfreerolls.wallpapers",
+    "name": "Fast Loan: Credit LoanApp",
+    "developer": "NomiX",
+    "country_code": "MY",
+    "country_name": "马来西亚",
+    "industry": "credit",
+    "industry_name": "信贷",
+    "store": "google_play",
+    "store_name": "Google Play",
+    "icon_url": "https://play-lh.googleusercontent.com/Jo3YOygPGwDI7CZFyRnbZjIi_mMl8FDixjJYr1fmEbTuGOIzI6wR2NtMom4vs2vmmHxG_PnpCF8Bpmv_6AUR",
+    "description": "Fast Loan: Credit LoanApp – Borrow Now is a fast, secure, and easy-to-use personal loan app designed to help you explore instant loan, cash loan, and quick loan options with complete transparency.\r\n\r\n",
+    "app_store_url": "",
+    "chinese_parent": "",
+    "parent_relation": ""
   }
 ]
