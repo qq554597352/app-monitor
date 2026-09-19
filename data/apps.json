@@ -6369,7 +6369,7 @@
   },
   {
     "id": "ph.atome.paylater",
-    "name": "Atome PH - Card, Loans & Save",
+    "name": "Atome PH- Card, Loans, Savings",
     "developer": "NEURONCREDIT FINANCING COMPANY INC.",
     "country_code": "PH",
     "country_name": "菲律宾",
@@ -6378,7 +6378,7 @@
     "store": "google_play",
     "store_name": "Google Play",
     "icon_url": "https://play-lh.googleusercontent.com/Fhe5B7_WkLgOduxC4W_CgAfa13nmCoAw9AoBCFjx1gN4lPN7SShQp9ayp5vyZY3yjkVwfD0ssCTHKM_ifVotrQ",
-    "description": "Atome, Southeast Asia's leading financial platform, offers solutions to empower your financial journey. Buy Now Pay Later! Shop smarter with the Atome Card — scan to pay with QR Ph, enjoy 3- or 6-mont",
+    "description": "For eligible residents of the Philippines only.\r\nAtome, Southeast Asia's leading financial platform, offers solutions to empower your financial journey. Buy Now Pay Later! Shop smarter with the Atome ",
     "app_store_url": "",
     "chinese_parent": "",
     "parent_relation": ""
@@ -14206,5 +14206,21 @@
     "app_store_url": "",
     "chinese_parent": "4finance（拉脱维亚欧洲消费金融集团）",
     "parent_relation": "外资（欧洲）"
+  },
+  {
+    "id": "com.happyverse.emicalculator",
+    "name": "Loan, Mortgage, EMI Calculator",
+    "developer": "Happy-verse",
+    "country_code": "GB",
+    "country_name": "英国",
+    "industry": "credit",
+    "industry_name": "信贷",
+    "store": "google_play",
+    "store_name": "Google Play",
+    "icon_url": "https://play-lh.googleusercontent.com/hSnZsmX7wOrAszB4yX_vSmv5LQVFgw1xivfoJYV9-GLxjBVuCFhRLHPCLvPr-9oRdsBHWOYuAvGDs5LYu_FiNA",
+    "description": "Loan, Mortgage and EMI Calculator\r\n\r\nEnter the amount, the interest rate and the term. You get the monthly payment straight away, along with the total interest and the total amount you will repay over",
+    "app_store_url": "",
+    "chinese_parent": "",
+    "parent_relation": ""
   }
 ]
