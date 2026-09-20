@@ -14222,5 +14222,21 @@
     "app_store_url": "",
     "chinese_parent": "",
     "parent_relation": ""
+  },
+  {
+    "id": "com.quicky.loan.check.eligibility.emi.calculator",
+    "name": "QuickyLoan - Check Eligibility",
+    "developer": "VASANI TECH LTD.",
+    "country_code": "GB",
+    "country_name": "英国",
+    "industry": "credit",
+    "industry_name": "信贷",
+    "store": "google_play",
+    "store_name": "Google Play",
+    "icon_url": "https://play-lh.googleusercontent.com/v0U6Ill7_wi0zYUGa9kpCWJqSxxWUOT0f51v8vA3JQHN1GxUJNEhdqwz9BxY7m7-UQstquiGoPI_6tKBakFmOQ",
+    "description": "QuickyLoan - Check Eligibility is an easy-to-use financial planning app designed to help you understand loan eligibility, calculate EMI, explore different loan types, learn about credit scores, and ac",
+    "app_store_url": "",
+    "chinese_parent": "",
+    "parent_relation": ""
   }
 ]
