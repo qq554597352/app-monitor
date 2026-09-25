@@ -673,7 +673,7 @@
   },
   {
     "id": "com.cmcm.uangme",
-    "name": "UangMe - Pinjaman Dana Online",
+    "name": "UangMe - Pinjaman Daring",
     "developer": "PT Uangme Fintek Indonesia",
     "country_code": "ID",
     "country_name": "印尼",
@@ -684,8 +684,8 @@
     "icon_url": "https://play-lh.googleusercontent.com/sGULV_w-0hUQmP_2VTUjrVGNghfxQvNCL4I--NP_xF5PR8q59SXQh4ZQ0tqmwFOrf5RCFWNm8qyEuTI4TCWguWQ",
     "description": "<b>Butuh Dana Cepat? UangMe Solusinya!</b>\r\n\r\nTenor pinjaman online mulai dari 91 - 180 hari.\r\n\r\nUangMe adalah <b>aplikasi pinjaman online terpercaya</b> yang membantu kamu mendapatkan <b>pinjaman uan",
     "app_store_url": "",
-    "chinese_parent": "Ant Group（蚂蚁集团）",
-    "parent_relation": "战略股东"
+    "chinese_parent": "",
+    "parent_relation": ""
   },
   {
     "id": "com.uatas.android",
