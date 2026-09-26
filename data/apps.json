@@ -14654,5 +14654,21 @@
     "app_store_url": "",
     "chinese_parent": "",
     "parent_relation": ""
+  },
+  {
+    "id": "com.knb.jomdana",
+    "name": "Jomdana-i:Fast Dana & Finance",
+    "developer": "Jomdana",
+    "country_code": "MY",
+    "country_name": "马来西亚",
+    "industry": "insurance",
+    "industry_name": "保险",
+    "store": "google_play",
+    "store_name": "Google Play",
+    "icon_url": "https://play-lh.googleusercontent.com/5GWg7PPcPWiCc18GTq5RiQgYG7LmGGHtlln8IGFE3XGHgIUOTnldLpPr8ZxtRVIGhSG-ttC0Ey0T_VudZyUjYg",
+    "description": "Jomdana-i is a Shariah-compliant digital financing platform in Malaysia, certified by Masryef  Advisory, a Shariah advisory firm registered with the Securities Commission Malaysia. \r\nWhether you need ",
+    "app_store_url": "",
+    "chinese_parent": "Ant Group（蚂蚁集团）",
+    "parent_relation": "战略股东"
   }
 ]
