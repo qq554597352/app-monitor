@@ -5001,7 +5001,7 @@
     "industry_name": "信贷",
     "store": "google_play",
     "store_name": "Google Play",
-    "icon_url": "https://play-lh.googleusercontent.com/p33iUsFYFLotrAn-I2MtH53FC5b8Um-K9LUt8-JByuhgVVgO2QjcKOzGYKypgIHhqWB_QlHKFu9qcXhOcYNAuw",
+    "icon_url": "https://play-lh.googleusercontent.com/CFWjxF88f24zSt9JVttvvl6AzusneeIpz1_9SKv1R0OH9Bj6-Mb9AZ73x0hBpe-VY5XUGeuOqfe4DmwpbwhObg",
     "description": "Produk Pinjaman\r\n- Nilai Pinjaman：Rp 1.000.000 – Rp 60.000.000\r\n- Tenor yang kami berikan adalah 91 - 365 hari.\r\n- Suku bunga (maksimum): APR 29.2% per tahun.\r\n\r\nContoh:\r\n- Jumlah Pengajuan Pinjaman D",
     "app_store_url": "",
     "chinese_parent": "Ant Group（蚂蚁集团）",
@@ -14670,5 +14670,37 @@
     "app_store_url": "",
     "chinese_parent": "Ant Group（蚂蚁集团）",
     "parent_relation": "战略股东"
+  },
+  {
+    "id": "com.peoplender.fundaztic",
+    "name": "Fundaztic",
+    "developer": "Peoplender Sdn. Bhd.",
+    "country_code": "MY",
+    "country_name": "马来西亚",
+    "industry": "credit",
+    "industry_name": "信贷",
+    "store": "google_play",
+    "store_name": "Google Play",
+    "icon_url": "https://play-lh.googleusercontent.com/9p-4bo3MaOSscbqHWTugJQQaoQqZ2NRnuSCN0HVUqKy9DvSjsEVG9jfB5rPZbscrmSbE0TBGqXzSLsL62qZORA",
+    "description": "Fundaztic is fully owned and managed by Peoplender Sdn Bhd which is a Recognised Market Operator licensed by the Securities Commission of Malaysia to operate a peer-to-peer financing platform. Strongl",
+    "app_store_url": "",
+    "chinese_parent": "",
+    "parent_relation": ""
+  },
+  {
+    "id": "com.smart.loan.calculator.home",
+    "name": "Loan Calculator",
+    "developer": "Luxi Liu",
+    "country_code": "GB",
+    "country_name": "英国",
+    "industry": "credit",
+    "industry_name": "信贷",
+    "store": "google_play",
+    "store_name": "Google Play",
+    "icon_url": "https://play-lh.googleusercontent.com/dBTzGszV3wHwwlzcvUnPEdb1flOPE6vdXq9NgQsm7eOi6g0dkG9gkqvlCx_1M_lS7JFDBcEtlcPHJbN5-B8cuEI",
+    "description": "Loan Calculator is an Android launcher that combines everyday app access with practical loan calculation tools.\r\n\r\nIt replaces your device’s default launcher and app drawer while giving you quick acce",
+    "app_store_url": "",
+    "chinese_parent": "",
+    "parent_relation": ""
   }
 ]
