@@ -14782,5 +14782,21 @@
     "app_store_url": "",
     "chinese_parent": "",
     "parent_relation": ""
+  },
+  {
+    "id": "com.prestami.dinero.rapido",
+    "name": "Préstami - Dinero Rápido",
+    "developer": "Préstami - Dinero Rápido",
+    "country_code": "MX",
+    "country_name": "墨西哥",
+    "industry": "finance",
+    "industry_name": "理财",
+    "store": "google_play",
+    "store_name": "Google Play",
+    "icon_url": "https://play-lh.googleusercontent.com/J_Ll8QponwNziqUjRORO9kftNXwrZhyC6KgBynujH0IHUGn-rJXQfEiLtI0mpqvLaJRW1VAtuu3OOpqg1MAwpA",
+    "description": "<h4><b>Préstami - Préstamos Online y Financiación Segura</b></h4>\r\nPréstami es un servicio de información creado para facilitarte el acceso a las mejores opciones de préstamos rápidos, préstamos en lí",
+    "app_store_url": "",
+    "chinese_parent": "",
+    "parent_relation": ""
   }
 ]
