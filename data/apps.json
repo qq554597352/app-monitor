@@ -14814,5 +14814,21 @@
     "app_store_url": "",
     "chinese_parent": "",
     "parent_relation": ""
+  },
+  {
+    "id": "hn.credimovil.credimovil",
+    "name": "CrediMovil",
+    "developer": "2G Califik",
+    "country_code": "MX",
+    "country_name": "墨西哥",
+    "industry": "finance",
+    "industry_name": "理财",
+    "store": "google_play",
+    "store_name": "Google Play",
+    "icon_url": "https://play-lh.googleusercontent.com/WwCVz5sAG1-KC3a-sNnPQ0lAdVffQS-mSVLD44cc_Fhr08k6fTMeVrZ9dOtJI8-jFxpyBkPge4Ov023G02WBsw",
+    "description": "La aplicación ideal para administrar tus préstamos adquiridos en CrediMovil Honduras, desde casa!",
+    "app_store_url": "",
+    "chinese_parent": "",
+    "parent_relation": ""
   }
 ]
