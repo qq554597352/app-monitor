@@ -15166,5 +15166,37 @@
     "app_store_url": "",
     "chinese_parent": "",
     "parent_relation": ""
+  },
+  {
+    "id": "com.foriraqam.pk",
+    "name": "ForiRaqam -Fast Easy Cash Loan",
+    "developer": "ORIGINAL KHAATA FINANCIAL SERVICES(PRIVATE)LIMITED",
+    "country_code": "PK",
+    "country_name": "巴基斯坦",
+    "industry": "insurance",
+    "industry_name": "保险",
+    "store": "google_play",
+    "store_name": "Google Play",
+    "icon_url": "https://play-lh.googleusercontent.com/FXW-GMnM0I6AUCTkz3qFKt7QTxovXK4GynQJNsBU4mhYrKl-G9bne0VPhe_TGAmzCFIxGbHii79PbEO9v2a7tw",
+    "description": "ForiRaqam, owned by Original Khaata Financials Services (Private) Limited, is a SECP-licensed online lending platform. License No.: SECP/LRD/165/OKFSPL/2026.\r\nIt is a safe and transparent online lendi",
+    "app_store_url": "",
+    "chinese_parent": "",
+    "parent_relation": ""
+  },
+  {
+    "id": "com.instapaytech.instapay",
+    "name": "Instapay eWallet",
+    "developer": "Instapay Technologies Sdn Bhd",
+    "country_code": "MY",
+    "country_name": "马来西亚",
+    "industry": "finance",
+    "industry_name": "理财",
+    "store": "google_play",
+    "store_name": "Google Play",
+    "icon_url": "https://play-lh.googleusercontent.com/vukaW175szCVjaHFmUBJk9RN7AVskX3Jj9_B9HH3yuUAK0zdfnG2lJUKWL_RwAEYJcT9Gf-_tNm3uikKIrPF2cs",
+    "description": "Instapay offers you the convenience of a digital account through a simple and smartly designed mobile app and a linked global Mastercard.\r\nYou need to sign-up with Instapay to use Instapay's digital a",
+    "app_store_url": "",
+    "chinese_parent": "",
+    "parent_relation": ""
   }
 ]
