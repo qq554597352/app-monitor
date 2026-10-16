@@ -778,7 +778,7 @@
     "store": "google_play",
     "store_name": "Google Play",
     "icon_url": "https://play-lh.googleusercontent.com/oWtbx6CXVzBQs5bxmxtbNmJcdHet8Tal2Mp5K6yy7jk4IXvTBbJFOCuv_gkfa6Dfojbq78YQO8wk6iOsfDnQ_g",
-    "description": "<b> JULO adalah aplikasi pinjaman online, kredit digital & paylater terpercaya yang berizin dan diawasi OJK </b>. Kenapa harus pilih JULO? Limit pinjamannya tinggi s/d 50 juta dan bisa dipakai berkali",
+    "description": "<b>JULO Kredit Digital adalah aplikasi pinjaman online untuk dana tunai, top up e-wallet, cicilan belanja online, hingga bayar tagihan apa saja. Daftar sekali, limit hingga Rp50.000.000 bisa kamu paka",
     "app_store_url": "",
     "chinese_parent": "IDG资本等",
     "parent_relation": "投资方"
@@ -4993,7 +4993,7 @@
   },
   {
     "id": "co.id.lumbungdana.android",
-    "name": "RpDana (ex-LumbungDana)",
+    "name": "RpDana - Pinjaman Daring",
     "developer": "PT LUMBUNG DANA INDONESIA",
     "country_code": "ID",
     "country_name": "印尼",
