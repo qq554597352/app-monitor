@@ -15454,5 +15454,37 @@
     "app_store_url": "",
     "chinese_parent": "",
     "parent_relation": ""
+  },
+  {
+    "id": "com.bbva.GEMA",
+    "name": "BBVA Empresas México",
+    "developer": "BBVA",
+    "country_code": "MX",
+    "country_name": "墨西哥",
+    "industry": "finance",
+    "industry_name": "理财",
+    "store": "google_play",
+    "store_name": "Google Play",
+    "icon_url": "https://play-lh.googleusercontent.com/rhY2YHB6jNAisgC9xpLmkTCqLNEEHiAULTP_AY_VntJXNrifh2_ZilIJv0JZ_KsZmkKpvfXDtXZ44B7KBAnR",
+    "description": "Descubre BBVA Empresas México, la app que evoluciona contigo y tu negocio.\r\nAdministra tu empresa de forma ágil y segura, estés donde estés, con una app pensada para adaptarse a las necesidades reales",
+    "app_store_url": "",
+    "chinese_parent": "",
+    "parent_relation": ""
+  },
+  {
+    "id": "mx.com.inntecmp.miinntecmovilapp",
+    "name": "Mi Inntec Móvil",
+    "developer": "Desarrollo Intec",
+    "country_code": "MX",
+    "country_name": "墨西哥",
+    "industry": "finance",
+    "industry_name": "理财",
+    "store": "google_play",
+    "store_name": "Google Play",
+    "icon_url": "https://play-lh.googleusercontent.com/UFUJb0z7ibmelSF38uyIma_Cg0j-cu5azBCGZdej6fEOrXjmnGGSpJWbsrlbxTZIFU_I_cB8LPHWqJssLVLT",
+    "description": "Aplicación para consulta de saldo y movimientos de las tarjetas de Inntec Medios de Pago.\r\nEsta app permite: \r\n - Realizar consultas de saldo.\r\n - Ver movimientos de tus tarjetas\r\n - Registrar / Remov",
+    "app_store_url": "",
+    "chinese_parent": "",
+    "parent_relation": ""
   }
 ]
