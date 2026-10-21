@@ -15502,5 +15502,21 @@
     "app_store_url": "",
     "chinese_parent": "",
     "parent_relation": ""
+  },
+  {
+    "id": "com.lflendingservices.android",
+    "name": "LF Lending – Loan App In PH",
+    "developer": "LF LENDING SERVICES CORPORATION",
+    "country_code": "PH",
+    "country_name": "菲律宾",
+    "industry": "credit",
+    "industry_name": "信贷",
+    "store": "google_play",
+    "store_name": "Google Play",
+    "icon_url": "https://play-lh.googleusercontent.com/TC8pt_L2k7YhjJUH3jT9MeIwIwLHbcoZR48U-oAvhVD3xr82SC0Os5n_pgC-IYTtrmjoZr9zSJH1AWpX_EFk",
+    "description": "LF Lending is an online lending app in the Philippines designed to help eligible Filipino users apply for cash loans through a simple, secure, and guided digital process.\r\nWith LF Lending, users can s",
+    "app_store_url": "",
+    "chinese_parent": "",
+    "parent_relation": ""
   }
 ]
