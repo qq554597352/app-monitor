@@ -15598,5 +15598,37 @@
     "app_store_url": "",
     "chinese_parent": "",
     "parent_relation": ""
+  },
+  {
+    "id": "com.easy.loan.app.get.loan.online",
+    "name": "Easy Loan - Instant Loan Calc",
+    "developer": "Chandu’s Apps",
+    "country_code": "PK",
+    "country_name": "巴基斯坦",
+    "industry": "credit",
+    "industry_name": "信贷",
+    "store": "google_play",
+    "store_name": "Google Play",
+    "icon_url": "https://play-lh.googleusercontent.com/8u1N_7hLhvO_DumQrcsu9B09nowPUn5k90k-xRHO3s4E9AeYvapRNL2AugP3yC5e1pxWi-sDQ92unBP-0Es-nw",
+    "description": "Easy Loan - Instant Loan Calc – Smart Loan & EMI Calculator\r\n\r\nPlan your finances with Easy Loan - Instant Loan Calc, a simple financial calculator designed to help you understand loan costs, estimate",
+    "app_store_url": "",
+    "chinese_parent": "",
+    "parent_relation": ""
+  },
+  {
+    "id": "com.finance.easyloan.sipcalculator.autoloancalculator.currencyconverter.eligibilitychecker",
+    "name": "EasyLoan - Check Eligibility",
+    "developer": "Anagha Apps",
+    "country_code": "PK",
+    "country_name": "巴基斯坦",
+    "industry": "credit",
+    "industry_name": "信贷",
+    "store": "google_play",
+    "store_name": "Google Play",
+    "icon_url": "https://play-lh.googleusercontent.com/zNOlG7VISvZ2hZW2zMs7yEXXJe2iymIRCcnEpFRzEzdJTGLuzcsvI0W0BbRt8XGVcuZDJdTSSKI86kqjzUvA",
+    "description": "EasyLoan - Check Eligibility\r\n\r\nEasyLoan - Check Eligibility is a simple financial calculator designed to help you estimate loan eligibility, calculate EMI, and explore different loan repayment scenar",
+    "app_store_url": "",
+    "chinese_parent": "",
+    "parent_relation": ""
   }
 ]
