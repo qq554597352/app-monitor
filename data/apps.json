@@ -778,7 +778,7 @@
     "store": "google_play",
     "store_name": "Google Play",
     "icon_url": "https://play-lh.googleusercontent.com/oWtbx6CXVzBQs5bxmxtbNmJcdHet8Tal2Mp5K6yy7jk4IXvTBbJFOCuv_gkfa6Dfojbq78YQO8wk6iOsfDnQ_g",
-    "description": "<b>JULO Kredit Digital adalah aplikasi pinjaman online untuk dana tunai, top up e-wallet, cicilan belanja online, hingga bayar tagihan apa saja. Daftar sekali, limit hingga Rp50.000.000 bisa kamu paka",
+    "description": "<b>JULO Kredit Digital adalah aplikasi pinjaman online untuk dana tunai, top up e-wallet, cicilan belanja online, hingga bayar berbagai tagihan. Daftar sekali, limit hingga Rp50.000.000 bisa kamu paka",
     "app_store_url": "",
     "chinese_parent": "IDG资本等",
     "parent_relation": "投资方"
@@ -15643,6 +15643,22 @@
     "store_name": "Google Play",
     "icon_url": "https://play-lh.googleusercontent.com/WNYpKZiipDDXHEzhjFewrUOW6u1QoNpg4VbIPHEr0sP1VGY_GhUktPiqwBF83iJpNa9R5o8gu7asYfIi45xn8WY",
     "description": "Looking for a fast, accurate, and simple way to calculate your monthly loan EMIs and plan your financial future? \r\n\r\nEasyLoan - Loan EMI Calculator is an all-in-one financial calculation and planning ",
+    "app_store_url": "",
+    "chinese_parent": "",
+    "parent_relation": ""
+  },
+  {
+    "id": "com.efectivo.amigo",
+    "name": "Finlora—Tu Crédito",
+    "developer": "Finlora—Tu Crédito",
+    "country_code": "MX",
+    "country_name": "墨西哥",
+    "industry": "finance",
+    "industry_name": "理财",
+    "store": "google_play",
+    "store_name": "Google Play",
+    "icon_url": "https://play-lh.googleusercontent.com/tTLG_5GwfeihIs7JlD6eynTlu3HSwOdverDK1dIAERhOa3YeuOQYOzAaU7xzh_JMcgUhmy8xuv3QFQ685fsh",
+    "description": "¿Necesita efectivo rápido sin trámites complicados? Finlora le ofrece préstamos personales en México, con montos de hasta 26,000 pesos y plazos flexibles. Sin comisiones ocultas, sin pagos por adelant",
     "app_store_url": "",
     "chinese_parent": "",
     "parent_relation": ""
