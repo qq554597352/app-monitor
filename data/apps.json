@@ -15790,5 +15790,21 @@
     "app_store_url": "",
     "chinese_parent": "",
     "parent_relation": ""
+  },
+  {
+    "id": "com.loans.lendableloan",
+    "name": "(Lendable Loan) App SIM",
+    "developer": "COKROYUDO DEVS",
+    "country_code": "GB",
+    "country_name": "英国",
+    "industry": "credit",
+    "industry_name": "信贷",
+    "store": "google_play",
+    "store_name": "Google Play",
+    "icon_url": "https://play-lh.googleusercontent.com/rLEtcuOn9qwD3sXD5xVw2F_8K_lLdHXQnE8ID6mmUUsr4Qr048h0jBF8s5hdXPKZI9J6Mo7oBm5_bmpurw2Yzw",
+    "description": "Lendable Loan is a loan simulation, calculator and complete guide about UK personal loan costs.\r\n\r\nLendable Loan is not an official representative of Lendable and is not affiliated with, endorsed by, ",
+    "app_store_url": "",
+    "chinese_parent": "",
+    "parent_relation": ""
   }
 ]
