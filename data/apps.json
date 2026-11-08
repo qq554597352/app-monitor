@@ -14186,7 +14186,7 @@
     "store": "google_play",
     "store_name": "Google Play",
     "icon_url": "https://play-lh.googleusercontent.com/v4ri4xMsPeacw5uZLcsf87pxX7G5NxXrD8XL0lAtZam36I9eK52lC_Y69PnSflF7yO7Gwoape5e2ps7IYVjAjBg",
-    "description": "“New to Together Loans?\r\n\r\nWe're building a new type of loan company. One based on trust.\r\n\r\nWe're a lender, but our loans are a little different. Most lenders look at your credit history to decide wh",
+    "description": "“New to Together Loans?\r\n\r\nWe're building a new type of loan company. One based on trust.\r\n\r\nWe offer personal loans, but these loans are a little different. Most lenders look at your credit history t",
     "app_store_url": "",
     "chinese_parent": "",
     "parent_relation": ""
@@ -15947,6 +15947,22 @@
     "store_name": "Google Play",
     "icon_url": "https://play-lh.googleusercontent.com/nAcR21CVhr0pF0hCwVtGvgOVDdfUByk00vs2ZLZXmOp0-g0JpZp8XjWyf6NIEEZK71USm-rmWJnVK2189ct9EXQ",
     "description": "Simpel, Untung, untuk Semua!\r\n\r\nBuka rekening SeaBank praktis, hanya butuh 3 menit. Kamu langsung bisa menikmati:\r\n1. Transaksi Digital Mudah dan Cepat dengan QRIS\r\nSukses bayar apa pun dan kapan pun ",
+    "app_store_url": "",
+    "chinese_parent": "",
+    "parent_relation": ""
+  },
+  {
+    "id": "com.proficientpremium.ppsb",
+    "name": "PPSB E-Loan",
+    "developer": "Proficient Premium",
+    "country_code": "MY",
+    "country_name": "马来西亚",
+    "industry": "credit",
+    "industry_name": "信贷",
+    "store": "google_play",
+    "store_name": "Google Play",
+    "icon_url": "https://play-lh.googleusercontent.com/q8ldwCOAJiwsdQndC-mM2LO7cXa1umRdHENd6QtZRjxjWhtf_nwV5iTk9W7psMbvc3PsPmCUXWPi47fwvqL3KUg",
+    "description": "PPSB E-Loan is the official borrower app for Proficient Premium Sdn Bhd, a licensed money lender (PPW) regulated under the Ministry of Housing and Local Government (KPKT), Malaysia. Apply for personal",
     "app_store_url": "",
     "chinese_parent": "",
     "parent_relation": ""
