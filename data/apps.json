@@ -16046,5 +16046,21 @@
     "app_store_url": "",
     "chinese_parent": "",
     "parent_relation": ""
+  },
+  {
+    "id": "com.geekaid.emi",
+    "name": "EMI Loan Calculator: SIP & Tax",
+    "developer": "Geek App Lab",
+    "country_code": "MY",
+    "country_name": "马来西亚",
+    "industry": "credit",
+    "industry_name": "信贷",
+    "store": "google_play",
+    "store_name": "Google Play",
+    "icon_url": "https://play-lh.googleusercontent.com/qEAdmMSjbmXQzlPwnKwt7zIeLQJKhbNLu1--20WhYgW9PpSbSe7VKQvoLwH1S6Z7d2VMDct2GTX5NBxt0sjt",
+    "description": "EMI calculator, loan calculator, SIP and mutual fund calculator, FD calculator and income tax calculator – 23 calculators in one app, in English or Hindi.\r\n\r\nWork out your home loan, car loan or perso",
+    "app_store_url": "",
+    "chinese_parent": "",
+    "parent_relation": ""
   }
 ]
