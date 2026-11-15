@@ -16142,5 +16142,37 @@
     "app_store_url": "",
     "chinese_parent": "",
     "parent_relation": ""
+  },
+  {
+    "id": "pynees.loantracker",
+    "name": "Loan Tracker & Payoff",
+    "developer": "Saifullah Saeed",
+    "country_code": "MY",
+    "country_name": "马来西亚",
+    "industry": "credit",
+    "industry_name": "信贷",
+    "store": "google_play",
+    "store_name": "Google Play",
+    "icon_url": "https://play-lh.googleusercontent.com/X-pjykWA__oRI2CHTOo-_ary0NxmQ1KzSANrKCxCM1y2-Jyt5zSKdGcQOJJDSRqVTaA7gmLvh4_k-xEIfqlwqw",
+    "description": "Loan Tracker & Payoff is the ultimate loan tracker app free to help you manage every loan, track payments, calculate interest, and build a smart debt payoff planner that fits your life. Whether you ha",
+    "app_store_url": "",
+    "chinese_parent": "",
+    "parent_relation": ""
+  },
+  {
+    "id": "com.video.player.all.format.hd",
+    "name": "Personal Loan EMI Calculator",
+    "developer": "SOFTMIZE INFOTECH LLC",
+    "country_code": "MY",
+    "country_name": "马来西亚",
+    "industry": "credit",
+    "industry_name": "信贷",
+    "store": "google_play",
+    "store_name": "Google Play",
+    "icon_url": "https://play-lh.googleusercontent.com/xVnHONJk3xz4fwg297ZW_KyAgh3luQgiJHveLJXKfJ9cBPogsGVcq7YwabeWYrwXHmOZdHaa61et8GZUujABKw",
+    "description": "**EMI Loan Calculator App** is a simple and easy-to-use calculator for estimating monthly loan payments, interest, and total repayment. Enter your loan amount, interest rate, and loan tenure to quickl",
+    "app_store_url": "",
+    "chinese_parent": "",
+    "parent_relation": ""
   }
 ]
