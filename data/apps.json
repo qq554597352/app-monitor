@@ -874,7 +874,7 @@
     "store": "google_play",
     "store_name": "Google Play",
     "icon_url": "https://play-lh.googleusercontent.com/yhJn6zijZ0aNfRttWwnruoLxpN_hSzLB6M3KZqlQSxoPcKqElKCb2XuUbkpdMrYoGBN-jNCR37LisX0IRjvY",
-    "description": "<b>Produk Pinjaman dana online</b>\r\n<b> Pinjaman uang tunai online: Rp 400.000 - Rp 10.000.000</b>\r\nTenor: 91-360 hari\r\nBunga: Maksimal 36%/tahun (tidak ada biaya lainnya)\r\nContoh untuk pinjaman Rp 2.",
+    "description": "<b>Produk Pinjaman dana online</b>\r\n<b> Pinjaman uang tunai online: Rp 300.000 - Rp 80.000.000</b>\r\nTenor: 91-360 hari\r\nBunga: Maksimal 36%/tahun (tidak ada biaya lainnya)\r\nContoh untuk pinjaman Rp 2.",
     "app_store_url": "",
     "chinese_parent": "",
     "parent_relation": ""
@@ -4826,7 +4826,7 @@
     "store": "google_play",
     "store_name": "Google Play",
     "icon_url": "https://play-lh.googleusercontent.com/jnFoIlMsbThffMUfT1dItyd8GYe8r9J5EoSvg0M6FRlhL1HQoGo5mvuPc3nMyj69ZlymQbpp8OJNBGKt8SLv",
-    "description": "Salmon puts your savings, credit, and loans in one app — available across the Philippines. Whether you're buying something now and paying for it over time, growing your savings, or keeping credit read",
+    "description": "Official Partner of the NBA Philippines 🏀\r\n\r\nSalmon puts your savings, credit, and loans in one app — available across the Philippines. Whether you're buying something now and paying for it over time,",
     "app_store_url": "",
     "chinese_parent": "",
     "parent_relation": ""
@@ -15969,7 +15969,7 @@
   },
   {
     "id": "com.citibank.cimb.bsn",
-    "name": "CreditXpress",
+    "name": "CreditXpress-Pinjaman Peribadi",
     "developer": "OPG Capital Holdings",
     "country_code": "MY",
     "country_name": "马来西亚",
