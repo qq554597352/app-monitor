@@ -16222,5 +16222,21 @@
     "app_store_url": "",
     "chinese_parent": "",
     "parent_relation": ""
+  },
+  {
+    "id": "au.com.loanio",
+    "name": "CashnGo Loans",
+    "developer": "CashnGo Australia",
+    "country_code": "AU",
+    "country_name": "澳大利亚",
+    "industry": "credit",
+    "industry_name": "信贷",
+    "store": "google_play",
+    "store_name": "Google Play",
+    "icon_url": "https://play-lh.googleusercontent.com/s8JSPsVHHSaW-o_jAanc-oE1PknaDW-X7rLpUe9JqKsGMBmaL-oVlwKWvvSCSM4Un1HsrE6YaoT64rnVWlrSuA",
+    "description": "Looking for a simple way to apply for a loan online? The CashnGo app lets eligible customers apply for loans from $300 to $5,000.\r\n\r\nWith the CashnGo app, you can apply from your phone, track your app",
+    "app_store_url": "",
+    "chinese_parent": "",
+    "parent_relation": ""
   }
 ]
