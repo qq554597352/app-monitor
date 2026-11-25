@@ -3321,8 +3321,8 @@
     "industry_name": "信贷",
     "store": "google_play",
     "store_name": "Google Play",
-    "icon_url": "https://play-lh.googleusercontent.com/vMLqRaBHMNYyYTJRJiNRL7U4_1VkysHHp-HNWKCRAgM0iMuyApFIuHBWC0lE-6H7b5T6vJ0SL-zf1oJ1cwZt9w",
-    "description": "Hi, we're Zable. Download our app to join over 2 million customers taking control of their finances.\r\n\r\nRated 'Excellent' On TrustPilot:\r\n\r\n• Quick eligibility check: it won't affect your credit score",
+    "icon_url": "https://play-lh.googleusercontent.com/CNtoZA9apAK6GlDqk1-LpElUvX80EiTbO9obqd_NO-53uvF9mIY48inqRienOy844wtTMtSS7jJg_8RH4-AaHQ",
+    "description": "Hi, we’re Zable. Download our app to join over 3 million customers taking control of their finances.\r\n\r\nRated ‘Excellent’ On TrustPilot:\r\n\r\n• Quick eligibility check: it won’t affect your credit score",
     "app_store_url": "",
     "chinese_parent": "",
     "parent_relation": ""
@@ -16267,6 +16267,22 @@
     "store_name": "Google Play",
     "icon_url": "https://play-lh.googleusercontent.com/mehhxGPVYh8IDfgtFnMAAFeTWPv5isbRiY-lHlSovU5V5uT0lU76pP2w44Nv4QLRl7UKiwKUoPWjpnrf-JqA1Q",
     "description": "Solicita un préstamo de hasta $15,000 de forma fácil y segura desde la app oficial de Macropay. Una opción para atender tus gastos personales, desde una reparación en casa hasta un pendiente de tu día",
+    "app_store_url": "",
+    "chinese_parent": "",
+    "parent_relation": ""
+  },
+  {
+    "id": "com.surodimejodevs.loancalculator",
+    "name": "Loan Calculator: Car Loan",
+    "developer": "Surodimejo Devs",
+    "country_code": "GB",
+    "country_name": "英国",
+    "industry": "credit",
+    "industry_name": "信贷",
+    "store": "google_play",
+    "store_name": "Google Play",
+    "icon_url": "https://play-lh.googleusercontent.com/PJIiJFyMJI4tDlhxa3HRXqhzDZZPgeKnFPUU4tK-MXBlZbN0IH1pD5AtkNHj0y9WQjT5M1TWuKAKNrI0SW537g",
+    "description": "Loan calculator that shows what borrowing really costs, fees and all, before you sign anything.\r\nMove a slider or type a number and the payment, interest, APR and payoff date change at once.\r\n\r\nWHAT Y",
     "app_store_url": "",
     "chinese_parent": "",
     "parent_relation": ""
