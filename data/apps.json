@@ -922,7 +922,7 @@
     "store": "google_play",
     "store_name": "Google Play",
     "icon_url": "https://play-lh.googleusercontent.com/FO-oLzMbFNzVuhICpEFU4tJPVrtEY0ACWBBVI_RVlHIDl-Ta7kCRnGDX8XRWwNZMQd5whStJV_Zb3hSanYY",
-    "description": "Cari Tahu Layanan Indodana PayLater:\r\n• Minimum tenor 3 bulan dan maksimum 12 bulan\r\n• Suku bunga 3% untuk tenor 3, 6, 12 bulan\r\n• Maksimum APR = 36%\r\n• Contoh: Jika berbelanja sebesar Rp4.000.000, de",
+    "description": "Cari Tahu Layanan Indodana PayLater:\r\n• Minimum tenor 3 bulan dan maksimum 24 bulan\r\n• Suku bunga 3% untuk tenor 3, 6, 12, dan 24 bulan\r\n• Maksimum APR = 36%\r\n• Contoh: Jika berbelanja sebesar Rp4.000",
     "app_store_url": "",
     "chinese_parent": "Ant Group（蚂蚁集团）",
     "parent_relation": "战略股东"
@@ -4058,7 +4058,7 @@
     "store": "google_play",
     "store_name": "Google Play",
     "icon_url": "https://play-lh.googleusercontent.com/pyd3hYcSNZksg7oEd9AjeALNlROuZ8YNDxh9LxZq9OIS6ZLCm-0v3zUC_Lr853qecp1YIyETblf7qH56dUsrqg",
-    "description": "Pueden elegir un préstamo de $1000 a $50,000 pesos💰, con plazo desde 91 hasta 360 días. MexiCash es una plataforma online segura y sencilla, que cuenta con más de 1,000 mil descargas.🥇🥇🥇\r\n\r\nPasos para",
+    "description": "Elige préstamos de $1,000 a $50,000 pesos 💰 con plazos de 91 a 360 días. MexiCash es una plataforma en línea segura y fácil de usar que ya cuenta con más de 1 millón de descargas. 🥇🥇🥇\r\n\r\nPasos para so",
     "app_store_url": "",
     "chinese_parent": "",
     "parent_relation": ""
@@ -9138,7 +9138,7 @@
   {
     "id": "com.pinjamwinwin",
     "name": "Pinjamin - Pinjaman Dana",
-    "developer": "PT. PROGO PUNCAK GROUP",
+    "developer": "PT PROGO PUNCAK GROUP",
     "country_code": "ID",
     "country_name": "印尼",
     "industry": "credit",
@@ -16299,6 +16299,22 @@
     "store_name": "Google Play",
     "icon_url": "https://play-lh.googleusercontent.com/wqnhkXluGUxeJFQ4kw8J9LRnS-2fcwIbgNZfpNkxzDkj_XSV5e2P_9IxWkjr8zxF6goqSZcmq7W5QBUcH_Z6-WU",
     "description": "Credit Card Apply is an informative finance app that helps users explore credit card options, compare basic features, learn about credit cards, and check BIN/IIN information.\r\n\r\n🌟 Key Features\r\nApply ",
+    "app_store_url": "",
+    "chinese_parent": "",
+    "parent_relation": ""
+  },
+  {
+    "id": "au.com.mypaynow.v2",
+    "name": "MyPayNow.",
+    "developer": "MyPayNow",
+    "country_code": "AU",
+    "country_name": "澳大利亚",
+    "industry": "finance",
+    "industry_name": "理财",
+    "store": "google_play",
+    "store_name": "Google Play",
+    "icon_url": "https://play-lh.googleusercontent.com/Q-S9q8Z522bTf5pG7phOrpS6B2mehS6QhhzGpe5v56bRAPwqPDVSJXJybLb5xVxzibHhNItdrSilTaZmlJBVtQ",
+    "description": "When life happens, why wait 'til payday? With MyPayNow, you can access up to your approved limit, each pay cycle, almost instantly!\r\n \r\nRather than waiting for your pay to be deposited into your bank ",
     "app_store_url": "",
     "chinese_parent": "",
     "parent_relation": ""
