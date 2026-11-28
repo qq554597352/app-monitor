@@ -16318,5 +16318,21 @@
     "app_store_url": "",
     "chinese_parent": "",
     "parent_relation": ""
+  },
+  {
+    "id": "com.weloan.application.ph",
+    "name": "WELOAN",
+    "developer": "WELOAN PRODUCTION",
+    "country_code": "AU",
+    "country_name": "澳大利亚",
+    "industry": "credit",
+    "industry_name": "信贷",
+    "store": "google_play",
+    "store_name": "Google Play",
+    "icon_url": "https://play-lh.googleusercontent.com/kZvZkAtbN0GMBIxUBHOiHXM8lqwSn2qrBCjfakCKwSqLd1Ub6hfWWbB64M3rkJvvdA2i61-4QpOcYmG7oCul",
+    "description": "WELOAN – Personal Finance, Budget Planner & Loan Tracker\r\n\r\nTake control of your everyday finances with WELOAN, a simple and convenient personal finance management app designed for users in the Philip",
+    "app_store_url": "",
+    "chinese_parent": "",
+    "parent_relation": ""
   }
 ]
